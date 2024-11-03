@@ -90,7 +90,7 @@ export default function CoursePlans (props){
               <PlanFeatures>
                 {plan.Features.map((feature, index) => (
                   <FeatureTextContainer>
-                    <CheckIcon tw="w-6 h-full inline mr-4 mt-2" />
+                    <CheckIcon tw="w-6 h-full inline mr-4 mt-4 sm:mt-2" />
                     <FeatureText key={index}>{feature}</FeatureText>
                   </FeatureTextContainer>
                 ))}

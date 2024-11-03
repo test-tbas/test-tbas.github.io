@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import tw from "twin.macro";
@@ -89,6 +89,12 @@ export default function FAQComponent(props){
   const [priceIsOpen, priceSetIsOpen] = useState(PriceState);
   const [joinIsOpen, joinSetIsOpen] = useState(JoinState);
 
+  const sectionRefs = {
+    section1: useRef(null),
+    section2: useRef(null),
+    section3: useRef(null),
+  };
+
   const toggleLessonQuestion = questionIndex => {
     lessonSetIsOpen((prev) =>
       prev.map((item, i) => (i === questionIndex ? !item : item)) // Toggle only the selected index
@@ -105,14 +111,8 @@ export default function FAQComponent(props){
     );
   };
 
-  const scrollToElement = (id) => {
-    const element = document.getElementById(id); // Find the element by ID
-    if (element) {
-      window.scrollTo({
-        top: element.offsetTop,  // Get the top position of the element
-        behavior: 'smooth',  // Smooth scrolling
-      });
-    }
+  const scrollToElement = (section) => {
+    sectionRefs[section].current?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -121,18 +121,18 @@ export default function FAQComponent(props){
       <HorizontalLine />
       <Container>
         <InternalNavBar>
-          <NavLink href="#" onClick={() => scrollToElement('lesson')}>
+          <NavLink onClick={() => scrollToElement('section1')}>
             {currInfo.subHeaders[0]}
           </NavLink>
-          <NavLink href="#" onClick={() => scrollToElement('price')}>
+          <NavLink onClick={() => scrollToElement('section2')}>
             {currInfo.subHeaders[1]}
           </NavLink>
-          <NavLink href="#" onClick={() => scrollToElement('join')}>
+          <NavLink onClick={() => scrollToElement('section3')}>
             {currInfo.subHeaders[2]}
           </NavLink>
         </InternalNavBar>
 
-        <SubHeading id="lesson">{currInfo.subHeaders[0]}</SubHeading>
+        <SubHeading ref={sectionRefs.section1}>{currInfo.subHeaders[0]}</SubHeading>
         <FAQSContainer>
           {currInfo.lesson.map((faq, index) => (
             <FAQ
@@ -188,7 +188,7 @@ export default function FAQComponent(props){
           ))}
         </FAQSContainer>
 
-        <SubHeading id="price">{currInfo.subHeaders[1]}</SubHeading>
+        <SubHeading ref={sectionRefs.section2}>{currInfo.subHeaders[1]}</SubHeading>
         <FAQSContainer>
           {currInfo.price.map((faq, index) => (
             <FAQ
@@ -366,7 +366,7 @@ export default function FAQComponent(props){
           ))}
         </FAQSContainer>
 
-        <SubHeading id="join">{currInfo.subHeaders[2]}</SubHeading>
+        <SubHeading ref={sectionRefs.section3}>{currInfo.subHeaders[2]}</SubHeading>
         <FAQSContainer>
           {currInfo.join.map((faq, index) => (
             <FAQ

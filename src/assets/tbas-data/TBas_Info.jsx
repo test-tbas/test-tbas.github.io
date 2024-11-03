@@ -41,13 +41,13 @@ export const home_hero = [
     Heading:(
       <>
         IB学習サポートなら
-        <br/>
+        <HiddenBrSm/>
         T-BASへ。
       </>
     ),
     Paragraph:(
       <>
-        IBディプロマを取得した講師たちが<HiddenBr />教える信頼の塾
+        IBディプロマを取得した講師たちが教える信頼の塾
       </>
     )
   },
@@ -61,7 +61,7 @@ export const home_hero = [
     ),
     Paragraph:(
       <>
-        A trusted tutoring center taught by<HiddenBr />instructors who have obtained the IB Diploma.
+        A trusted tutoring center taught by <HiddenBr />instructors who have obtained the IB Diploma.
       </>
     )
   }
@@ -197,7 +197,6 @@ export const home_keyAspects = [
         SubHeading: "One-on-one lessons",
         Description: (<>
           We provide one-on-one lessons that cater to each individual, 
-          <HiddenBrSm />
           maximizing their effectiveness and potential.
         </>),
         ImageUrl: skill1
@@ -283,8 +282,8 @@ export const courseInfo = [
         ]
       }
     ],
-    Button1: "対面レッスン",
-    Button2: "オンラインレッスン"
+    Button1: (<>対面<HiddenBr/>レッスン</>),
+    Button2: (<>オンライン<HiddenBr/>レッスン</>)
   },
   {
     Heading: "Course Introductions",
@@ -1221,7 +1220,7 @@ export const faqInfo = [
 
         // add code for table
         inPersonTable: {
-          heading: "対面レッスン",
+          heading: (<>対面<HiddenBr/>レッスン</>),
           keyNote: "※設備使用料金が別途1100円/月かかります",
           priceSuffix: "円(税別)/時間",
           courses:[
@@ -1498,7 +1497,7 @@ export const contactUsForm = [
     ]
   },
   {
-    heading: "Contact Us.",
+    heading: "Contact Us",
     required: "Required",
     send: "Send",
     successResponse: "Thank you for your inquiry!",

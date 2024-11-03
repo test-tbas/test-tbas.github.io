@@ -113,7 +113,7 @@ export default function Header(props) {
     <LanguageChangeContainer>
       <LanguageChange onClick={() => {
           navigate("/eng/" + currPath);
-          navigate(0);
+          window.location.reload();
         }}>
         <GlobeIcon tw="w-6 h-6" />
         &nbsp;English
@@ -124,7 +124,7 @@ export default function Header(props) {
     <LanguageChangeContainer>
       <LanguageChange onClick={() => {
           navigate("/" + currPath);
-          navigate(0);
+          window.location.reload();
         }}>
         <GlobeIcon tw="w-6 h-6" />
         &nbsp;日本語
@@ -182,7 +182,7 @@ export default function Header(props) {
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[6])}>{currInfo.links[7]}</NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href={currNavPath+currInfo.endpoints[7]}>
+      <PrimaryLink onClick={() => navigate(currNavPath+currInfo.endpoints[7])}>
         <EmailIcon tw="w-6 h-6 inline mr-4" />
         {currInfo.links[8]}
       </PrimaryLink>
