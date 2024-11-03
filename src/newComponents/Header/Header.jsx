@@ -86,7 +86,7 @@ const DropdownParentToggleIcon = styled(motion.span)`
   }
 `;
 const DropdownLinkContainer = tw(motion.div)`hidden absolute 
-left-0 z-40 font-normal mt-4 text-gray-300 bg-white lg:w-[12.5rem]`;
+left-0 z-40 font-normal mt-4 text-gray-300 bg-white lg:w-[12.5rem] xl:w-[13.5rem]`;
 const DropdownLink = tw(NavLink)`block lg:mx-0 px-4 py-2 w-full`;
 const DropdownLinks = tw.div`flex flex-wrap cursor-pointer`;
 
