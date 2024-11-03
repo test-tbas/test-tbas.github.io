@@ -77,7 +77,7 @@ export default function Footer(props) {
         <LogoLightText>
           {currInfo.hours}
         </LogoLightText>
-        <LogoText>
+        <LogoText as="a" href={'mailto:anatano.koki@gmail.com'}>
           {currInfo.email}
         </LogoText>
       </LogoTextContainer>
