@@ -37,5 +37,13 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="text/javascript">
+      // Redirect to index.html for React Router
+      var redirectTo = window.location.pathname;
+      if (!redirectTo.startsWith("/")) {
+        redirectTo = "/" + redirectTo;
+      }
+      window.location.href = "/" + "index.html?redirect=" + redirectTo;
+    </script>
   </body>
 </html>
