@@ -15,7 +15,7 @@ import {
 import { ReactComponent as ChevronDownIcon } from "feather-icons/dist/icons/chevron-down.svg";
 import { faqInfo } from "assets/tbas-data/TBas_Info.jsx";
 
-const Heading = tw(MainHeadingTemplate)`text-left text-tbasMain-purple900 tracking-widest font-black pl-4 md:pl-8 2xl:pl-0`;
+const Heading = tw(MainHeadingTemplate)`text-left text-tbasMain-purple900 tracking-widest font-black pl-4 md:pl-8 2xl:pl-0 pt-8 pb-6`;
 const HorizontalLine = tw.div`text-main-black bg-main-black border h-[3px]`;
 
 const SubHeading = tw(SubMainHeadingTemplate)`text-tbasMain-purple900 text-center py-8 md:py-16`;

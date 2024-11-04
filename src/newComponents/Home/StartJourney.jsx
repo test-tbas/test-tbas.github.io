@@ -16,13 +16,13 @@ import { startJourneyInfo } from "assets/tbas-data/TBas_Info.jsx";
 import { ReactComponent as ArrowIcon } from "feather-icons/dist/icons/arrow-right-circle.svg";
 
 const PrimaryBackgroundContainer = styled.div`
-  ${tw`text-main-white bg-no-repeat bg-cover bg-left md:bg-center content-center w-full h-96 sm:h-112 md:h-128 lg:h-176 z-10`}
+  ${tw`text-main-white bg-no-repeat bg-cover bg-left md:bg-center content-center w-full h-96 sm:h-112 md:h-128 lg:h-176 z-10 flex items-center justify-center`}
   background-image: url("https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 `;
 
 const Container = tw(ContentFormatted2)`w-4/5 md:w-full md:pl-8 xl:pl-0`
 
-const TextColumn = tw.div`text-left`;
+const TextColumn = tw.div`text-left self-center`;
 
 const Heading = tw(MainHeadingTemplate)`leading-tight tracking-widest mb-8 md:mb-16`;
 const Description = tw(MainParagraph2Template)`tracking-widest font-medium text-left`;

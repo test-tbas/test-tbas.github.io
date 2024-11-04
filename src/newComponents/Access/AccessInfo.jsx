@@ -17,7 +17,7 @@ import { ReactComponent as ArrowIcon } from "feather-icons/dist/icons/arrow-down
 
 const Container = tw(BaseContainer)`lg:py-12`;
 
-const Heading = tw(MainHeadingTemplate)`text-left text-tbasMain-purple900 tracking-widest font-black pl-4 md:pl-8 2xl:pl-0`;
+const Heading = tw(MainHeadingTemplate)`text-left text-tbasMain-purple900 tracking-widest font-black pl-4 md:pl-8 2xl:pl-0 pt-8 pb-6`;
 const HorizontalLine = tw.div`text-main-black bg-main-black border h-[3px]`;
 const SubHeading = tw(SectionDescriptionBase)`text-left pl-4 md:pl-8 2xl:pl-0 mt-4 text-main-black font-normal py-6`;
 

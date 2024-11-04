@@ -31,7 +31,7 @@ border-l-[50px] border-l-transparent
 border-t-[75px] border-white
 border-r-[50px] border-r-transparent`;
 
-const Row = tw(ContentFormatted)`relative flex flex-row lg:px-12 mt-16 mb-56 sm:my-12
+const Row = tw(ContentFormatted)`relative flex flex-row lg:px-12 mt-16 sm:mt-0 mb-56 sm:mb-0 sm:my-12
 h-64 md:h-80 lg:h-112 xl:h-128`;
 const ImageColumn = tw.div`w-1/2 h-full md:mx-8 lg:mx-16 xl:mx-20
 rounded-full overflow-hidden 
@@ -43,8 +43,8 @@ const Image = styled.div(props => [
 ]);
 
 const TextBoxContainer = tw.div`bg-tbasMain-purple900 text-main-white p-4 absolute rounded-xl transform`;
-const CenterContainer = tw(TextBoxContainer)`bottom-0 sm:top-1/2 left-1/2 
--translate-x-1/2 translate-y-16 sm:-translate-y-1/2`;
+const CenterContainer = tw(TextBoxContainer)`bottom-0 left-1/2
+-translate-x-1/2 translate-y-16 sm:-translate-y-24 lg:-translate-y-40`;
 const LeftTopContainer = tw(TextBoxContainer)`top-0 left-0 
 -translate-y-12
 md:translate-x-0 md:translate-y-0`;
@@ -57,7 +57,7 @@ md:-translate-x-1 md:-translate-y-1`;
 const RightBotContainer = tw(TextBoxContainer)`bottom-0 right-0 
 translate-y-[11.5rem]
 md:-translate-x-1 md:-translate-y-1`;
-const TextBox = tw(MainParagraphTemplate)`text-center font-extrabold`;
+const TextBox = tw(MainParagraphTemplate)`text-center font-bold`;
 
 var currInfo = home_concerns[0];
 export default function Concerns(props) {
