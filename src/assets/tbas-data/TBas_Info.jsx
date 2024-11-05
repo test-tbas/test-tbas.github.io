@@ -164,9 +164,9 @@ export const home_keyAspects = [
       {
         SubHeading: "マンツーマン授業",
         Description: (<>
-          徒1人1人に寄り添い、最大限に効果を
+          生徒1人1人に寄り添い、最大限に効果を
           <HiddenBrSm />
-          生発揮できる1対1の授業をご提供。
+          発揮できる1対1の授業をご提供。
         </>),
         ImageUrl: skill1
       },
