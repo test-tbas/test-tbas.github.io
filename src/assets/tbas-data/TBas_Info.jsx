@@ -440,10 +440,10 @@ export const Customer reviews = [
       },
       {
         subHeading: "I feel my growth every day.",
-        description: "Thank you for your constant guidance. Thanks to the teachers' instruction, I am feeling my growth every day in terms of study methods and expressing my own opinions. I am very grateful. I want to study diligently during the summer vacation as well, so I appreciate your support."
+        description: "Thank you for your constant guidance. Thanks to the teachers' instruction, I am feeling my growth every day in terms of study methods and expressing my own opinions. I appreciate your support and I want to study diligently during the summer vacation as well!"
       },
       {
-        subHeading: "I have come to understand the lessons better.",
+        subHeading: "I can understand the lessons better.",
         description: "Since I started receiving support at the tutoring center, I have come to understand the lessons better, and I've learned the joy of studying IB education, leading to fulfilling days."
       },
       {
@@ -954,7 +954,7 @@ export const inPerson_WhySelect = [
           <br />
           in-person lessons
         </>),
-        Description: "Nothing beats one-on-one in-person lessons. At T-BAS, you can focus on your lessons in a well-equipped classroom, unlike in cafes, so I confidently recommend it.",
+        Description: "Nothing is better than one-on-one in-person lessons. At T-BAS, you can focus on your lessons in a well-equipped classroom, unlike in cafes, so I confidently recommend it.",
         ImageUrl: teach2
       },
       {
@@ -1071,7 +1071,7 @@ export const online_WhySelect = [
           <br />
           lessons
         </>),
-        Description: "With one-on-one lessons, students can engage in dialogue with the instructor, allowing them to maintain focus throughout the session. We provide careful instruction tailored to each child's understanding, aiming for improved academic performance.",
+        Description: "With one-on-one lessons, students can interact with the instructor, allowing them to maintain focus throughout the session. We provide careful instruction tailored to each child's understanding, aiming for improved academic performance.",
         ImageUrl: teach2
       },
       {
@@ -1332,7 +1332,7 @@ export const faqInfo = [
       },
       {
         question: "What kind of teachers will be teaching?",
-        answer: (<>IBコースは全員がIBDP取得済みの講師です。<HiddenBrSm/>
+        answer: (<>Every instructor teaching the Ib course have obtained the IB diploma.<HiddenBrSm/>
                 Among them, many instructors are top-performing graduates from Tamagawa Gakuen IB.<HiddenBrSm/>
                 Furthermore, T-BAS instructors receive guidance and training from the director, ensuring high-quality lessons.
                 </>)
@@ -1343,7 +1343,7 @@ export const faqInfo = [
       },
       {
         question: "I have accumulated rescheduled lessons...",
-        answer: "You can also have intensive lessons during school breaks, such as summer and spring vacations, so rest assured."
+        answer: "You can also have intensive lessons during school breaks, such as summer and spring vacations, so please rest assured."
       }
     ],
     price:[
@@ -1404,7 +1404,7 @@ export const faqInfo = [
       {
         question: "Are there any additional fees for in-person lessons besides the tuition and facility usage fee?",
         answer: (<>There are none. T-BAS does not incur transportation costs for the instructor or café expenses, <HiddenBrSm/>
-                making it a cost-effective tutoring service where you can take in-person lessons at a location close to the station for less than others.
+                making it a cost-effective tutoring service where you can take in-person lessons at a location close to the station for a better deal.
                 </>)
       },
       {
@@ -1605,12 +1605,12 @@ export const aboutUs = [
       <>
       T-BAS Tamagawa Gakuen is a tutoring center dedicated to providing 
       <HiddenBrSm/>
-      children in the Tamagawa Gakuen area with the best after-school experience
+      children with the best after-school experience at Tamagawa Gakuen
       </>
     ),
     textDescription:(
       <>
-      Currently, the number of International Baccalaureate (IB) accredited schools is gradually increasing in Japan. The IB emphasizes the importance of long-term continuous learning. By thoroughly understanding daily studies and gradually building upon them, students can develop strong skills that will eventually prepare them for the DP exams, including English proficiency. Additionally, maintaining high grades in school will favorably impact university recommendation admissions. In the DP program, students must select six subjects from both the sciences and humanities, so it is crucial to avoid developing weaknesses in any subjects from a young age.
+      Currently, the number of International Baccalaureate (IB) accredited schools is gradually increasing in Japan. The IB emphasizes the importance of long-term continuous learning. By thoroughly understanding daily studies and gradually building upon them, students can develop strong skills that will eventually prepare them for the DP exams, including English proficiency. Additionally, maintaining high grades in school will favorably impact university recommendation admissions. In the DP program, students must select six subjects from both the sciences and humanities, so it is crucial to overcome the weaknesses in any subjects from a young age.
       <br/><br/>
       The tutors in T-BAS's IB course have achieved high scores on the IB Diploma and have successfully gained admission to universities both domestically and internationally. They offer unique support that only those who have obtained the IBDP can provide. If you're unsure how to study, want to solidify daily learning, are facing challenges because parents cannot teach, wish to get ahead in studies, or need assistance preparing for the DP exams or university entrance exams, please do not hesitate to reach out. We will propose lessons tailored to each individual's needs.
       <br/><br/>
