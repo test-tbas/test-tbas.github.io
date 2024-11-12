@@ -110,7 +110,7 @@ export const home_concerns = [
     Heading:[ "Do you have any of these", " concerns?" ],
     Skills:[
       <>
-        I feel uneasy with
+        I feel worried with
         <br/>
         just a private tutor
       </>,
