@@ -151,7 +151,7 @@ export const home_trialLessons = [
     ActionButton: "お問い合わせ・相談"
   },
   {
-    Heading: [ "Now, we are accepting trial lessons for ", "3,300 yen!" ],
+    Heading: [ "You can now do trial lessons for ", "3,300 yen!" ],
     Subheading: "Feel free to reach out！",
     ActionButton: "Contact Us!"
   }
@@ -335,7 +335,7 @@ export const courseInfo = [
   }
 ];
 
-export const testimonials = [
+export const Customer reviews = [
   {
     heading: "ご利用者の声",
     learnMore: "もっと見る",
@@ -400,7 +400,7 @@ export const testimonials = [
     reviews: [
       {
         subHeading: "I have been attending this tutoring center for a long time, and it has really helped me.",
-        description: "I have been attending since the school first opened, and honestly, at first, it was at my parents' insistence. It has been three years, and I have truly benefited from this school. Now, my child has changed their attitude and expresses a desire to go and learn from the teachers. Although it can be difficult to ask questions in front of subject teachers, my child can comfortably ask questions to the familiar teachers at this school without feeling ashamed of what they don't understand, allowing them to ask until they achieve a deep understanding. While online lessons are also available, in-person interaction is definitely beneficial. I look forward to continuing this relationship in the future."
+        description: "I have been attending since the school first opened, and honestly, at first, it was at my parents' insistence. It has been three years, and I have truly benefited from this school. Now, my child has changed their attitude and expresses a desire to go and learn from the teachers. Although it can be difficult to ask questions in front of subject teachers, my child can comfortably ask questions to the familiar teachers at this school without feeling ashamed of what they don't understand, allowing them to ask until they achieve a deep understanding. While online lessons are also available, in-person interaction is definitely beneficial. Thank you so much for your continued support."
       },
       {
         subHeading: "If I hadn't joined, I might have ended up failing.",
@@ -408,7 +408,7 @@ export const testimonials = [
       },
       {
         subHeading: "I have been able to achieve good results in the exams, gradually overcoming my weak subjects.",
-        description: "Thanks to your support, my grades this semester have improved. In Math, my efforts have paid off, and I seem to be stabilizing. I have achieved good results in the exam, gradually overcoming my weak subjects. This has certainly translated into confidence and motivation for advancing to the next grade. Once again, I sincerely appreciate your warm support."
+        description: "Thanks to your support, my grades this semester have improved. In Math, my efforts have paid off, and I seem to be stabilizing. I have achieved good results in the exam, gradually overcoming my weak subjects. This has certainly lead to confidence and motivation for advancing to the next grade. Once again, I sincerely appreciate your warm support."
       },
       {
         subHeading: "I have been able to gain confidence and reassurance.",
@@ -416,7 +416,7 @@ export const testimonials = [
       },
       {
         subHeading: "Stability in both academic performance and mental well-being!",
-        description: "️It has been almost two years since I first received help from a teacher to overcome my difficulties with Math. Even after the transition to a new teacher who became my mentor for DP preparation, both my academic performance and mental state have stabilized, and most importantly, the anxiety and frustration I felt as a parent have disappeared. I am particularly grateful for the improvement in time management and my ability to engage with a sense of ownership. With the guidance of teachers who serve as close role models, I believe my child has become more capable of envisioning the entrance exams and further learning. Thank you for your continued support until the end."
+        description: "️It has been almost two years since I first received help from a teacher to overcome my difficulties with Math. Even after the transition to a new teacher who became my mentor for DP preparation, both my academic performance and mental state have stabilized, and most importantly, the anxiety and frustration I felt as a parent have disappeared. I am particularly grateful for the improvement in time management and their ability to engage with a sense of ownership. With the guidance of teachers who serve as close role models, I believe my child has become more capable of envisioning the entrance exams and further learning. Thank you for your continued support."
       },
       {
         subHeading: "My school life has become more fulfilling.",
@@ -424,7 +424,7 @@ export const testimonials = [
       },
       {
         subHeading: "The guidance from the assigned teacher is a perfect match.",
-        description: "My daughter has only had a few sessions, but she seems to have a very positive impression, and I am grateful for that. It seems that the guidance from her assigned teacher is a great fit. From my perspective, the principal's heartfelt counseling during our first meeting, where we reviewed her report card, was a major deciding factor in our choice to enroll. I sincerely hope that many excellent teachers will continue to be available and that you will continue to thrive!"
+        description: "My daughter has only had a few sessions, but she seems to have a very positive impression, and I am grateful for that. It seems that the guidance from her assigned teacher is a great fit. From my perspective, the principal's heartfelt counseling during our first meeting, where we reviewed her report card, was a major deciding factor in our choice to enroll. I sincerely hope that many excellent teachers will continue to come,and for T-BAS to thrive!"
       },
       {
         subHeading: "A one-on-one environment for learning is great.",
