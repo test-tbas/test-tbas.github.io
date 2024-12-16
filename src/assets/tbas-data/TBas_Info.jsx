@@ -42,7 +42,7 @@ export const home_hero = [
       <>
         IB学習サポートなら
         <HiddenBrSm/>
-        T-BASへ。
+        T-BAS玉川学園へ。
       </>
     ),
     Paragraph:(
@@ -103,7 +103,7 @@ export const home_concerns = [
     ],
     Subheading:[
       "玉川学園前駅徒歩1分！", 
-      (<>IB専門塾の「T-BAS」に<HiddenBr/>お任せください！</>)
+      (<>IB専門塾の「T-BAS玉川学園」に<HiddenBr/>お任せください！</>)
     ]
   },
   {
@@ -469,7 +469,7 @@ export const tutors_list = [
           "玉川IB卒（IBDP取得済）"
         ],
         subjects: [
-          "EP", "MYP", "DP"
+          "Pre-MYP", "MYP", "DP"
         ],
         comment: "私は英語が決して得意ではなかった状態でIBコースに進学しましたが、最終的にはDPスコアをしっかりと取得することができました。この経験が生徒さんのIBライフに役立てられるよう、お手伝いさせていただければと思います。私個人的な意見ではありますが、英語ができなくてもIBは努力次第で自分自身の成長とともにしっかりと結果を出すことができます！"
       },
@@ -477,7 +477,7 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "トロント大学",
+          "トロント大学コンピューターサイエンス学部",
           "玉川IB卒（IBDP取得済）",
           "ニュージーランド留学経験あり"
         ],
@@ -490,11 +490,11 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Female",
         education: [
-          "テンプル大学",
+          "テンプル大学教養学部政治学科",
           "玉川IB卒（IBDP取得済）"
         ],
         subjects: [
-          "Art", "CASのサポート等", "EE", "EP", "MYP", "TOK"
+          "Art", "CASのサポート等", "EE","TOK", "Pre-MYP", "MYP" 
         ],
         comment: "テンプルジャパンキャンパスに進学し、現在は国際教養と政治学を専攻しています。T-BASでの講師歴は今年で3年目になるので、主にMYP生を担当していますが文系や理数系関係なく多岐に渡って生徒をサポートしています。DP生は主に美術やCAS、EE、TOKなどの指導を中心としています。当塾には経験と知識が豊富な講師陣がお待ちしております。どうぞ一度体験レッスンにお越しください。"
       },
@@ -505,7 +505,7 @@ export const tutors_list = [
           "国際基督教大学"
         ],
         subjects: [
-          "EP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
+          "Pre-MYP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
         ],
         comment: "I&Sやeconomicsの社会科目を得意としております。ただ答えを教えるのではなく、ひとりひとりの理解力を引き出すような、IBらしい指導を心がけています。その場その場の課題だけでなく、MYP、DPの過程とその先を考慮して学習をサポートしてきます！"
       },
@@ -516,7 +516,7 @@ export const tutors_list = [
           "早稲田大学国際教養学部"
         ],
         subjects: [
-          "EP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
+          "Pre-MYP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
         ],
         comment: "英語のスキルがゼロに近いところからMYPに入り言語の壁や課題に苦戦しましたが、試行錯誤を繰り返したIBの生活はとても充実していて成長できたと感じています。IBで培ったスキルや経験を生かして、英語の勉強や日々の学習をサポートできるように勤めてまいります。T-BASで皆さんにお会いできることを楽しみにしております。"
       },
@@ -524,12 +524,12 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "慶應義塾大学総合政策学部",
+          "慶應義塾大学総合政策学部GIGAプログラム",
           "玉川IB卒（IBDP取得済）",
           "オーストラリア留学経験あり"
         ],
         subjects: [
-          "EnglishB(HL)", "EP", "JapaneseA(HL)", "Math(MYP)", "MYP"
+           "Pre-MYP", "MYP","DP","JapaneseA(HL)", "Math(MYP)", "History(HL)"
         ],
         comment: "僕は海外経験がないままMYPに入りましたが、日々の勉強や留学を通して英語力の成長を実感してきました。 日々の学習サポートに加えて、推薦入試のアドバイスや英検対策など、IBで培った経験を存分に活かせるように頑張りますのでどうぞよろしくお願いします。"
       },
@@ -537,7 +537,7 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "トロント大学"
+          "トロント大学エンジニアリングサイエンス"
         ],
         subjects: [
           "MathAA(HL)", "Phy(HL)", "Chem(SL)"
@@ -548,12 +548,12 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "エディンバラ大学",
+          "エディンバラ大学英文学科",
           "玉川IB卒（IBDP取得済）",
           "イギリス留学経験あり"
         ],
         subjects: [
-          "Core科目", "EnglishA/B", "EP", "History", "I＆S", "JapaneseA/B", "MYP"
+          "Core科目", "EnglishA/B",  "History", "I＆S", "JapaneseA/B", "MYP", "DP"
         ],
         comment: "慶應義塾大学文学部に進学後、現在はエディンバラ大学で英文学を専攻しています。 英語と国語を中心に、幅広い年齢層の生徒を教えることができます。また、国内受験・海外受験 ともに豊富な知識を持っています。体験授業でお待ちしております！"
       },
@@ -561,11 +561,11 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Female",
         education: [
-          "上智大学法学部",
+          "上智大学法学部国際関係法学科",
           "海外IB卒(IBDP取得済)"
         ],
         subjects: [
-          "DP", "EP", "MYP", "MathAA(SL)", "Chem(SL)"
+           "Pre-MYP", "MYP", "DP", "MathAA(SL)", "Chem(SL)"
         ],
         comment: "こんにちは！私は海外のIBディプロマを取得しました。そこで学んだ経験を活かし、勉学のみならず海外入試や進学後の生活などの面でも生徒さん達をサポートできます。どうぞよろしくお願いします。"
       },
@@ -574,10 +574,10 @@ export const tutors_list = [
         gender: "Female",
         education: [
           "ハワイ大学",
-          "東京ウエストインターナショナルスクール → 玉川IB卒（IBDP取得済）"
+          " 玉川IB卒（IBDP取得済）"
         ],
         subjects: [
-          "Biology", "English A", "EP", "History", "Japanese", "Math(AI)", "MYP"
+         "MYP", "DP","Biology", "English A",  "History", "Japanese", "Math(AI)"
         ],
         comment: "私は英語と日本語のバイリンガルで、IBのMYPおよびDPプログラムを卒業しました。皆さんに教えることを楽しみにしています。質問があれば、何でも気軽に聞いてください！"
       },
@@ -585,10 +585,10 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "国際基督教大"
+          "国際基督教大学"
         ],
         subjects: [
-          "MYP", "DP", "Bio(HL)", "Econ(HL)"
+          "MYP", "DP", "Bio(HL)", "Econ(HL)", "Math(AI)"
         ],
         comment: "中学1年に頃に英検5級に落ちたほどの英語力だった私ですが、最後はDPをそれなりの成績で修めることができました。英語力の高い海外経験豊富な生徒に囲まれながら何度IBを辞めようと思った事でしょうか。しかし、最後まで諦めずに続けて良かったと思っています。努力すれば結果が付いてくる時代は必ず訪れます。その結果を少しでも良くするお手伝いをさせていただければと思いますので、一緒に頑張りましょう！"
       },
@@ -596,11 +596,11 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "上智大学法学部",
+          "上智大学法学部国際関係法学科",
           "開智日本橋高校IB卒（IBDP取得済）"
         ],
         subjects: [
-          "MathAA(SL)", "MYP"
+         "Pre-MYP", "MYP", "DP", "MathAA(SL)", "Business", "Geography"
         ],
         comment: "こんにちは！僕は生徒さんに寄り添い、勉強が苦にならないよう楽しく授業するのがモットーです！よろしくお願いいたします！"
       },
