@@ -632,7 +632,7 @@ export const tutors_list = [
           "Tamagawa IB graduate (IBDP obtained)"
         ],
         subjects: [
-          "EP", "MYP", "DP"
+          "Pre-MYP", "MYP", "DP"
         ],
         comment: "I entered the IB course without being particularly good at English, but ultimately I was able to achieve a solid DP score. I hope to use this experience to help students in their IB lives. In my personal opinion, even if you struggle with English, you can achieve great results in the IB with effort and personal growth!"
       },
@@ -640,7 +640,7 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "University of Toronto",
+          "University of Toronto,faculty of computer science",
           "Tamagawa IB graduate (IBDP obtained)",
           "Experience studying abroad in New Zealand"
         ],
@@ -657,7 +657,7 @@ export const tutors_list = [
           "Tamagawa IB graduate (IBDP obtained)"
         ],
         subjects: [
-          "Art", "CAS Support", "EE", "EP", "MYP", "TOK"
+          "Art", "CAS Support", "EE", "TOK", "Pre-MYP", "MYP"
         ],
         comment: "I entered the Temple University Japan Campus and am currently majoring in International Studies and Political Science. This year marks my third year as an instructor at T-BAS, where I primarily support MYP students but also assist students across various subjects, whether in the humanities or sciences. For DP students, I mainly focus on guidance in art, CAS, EE, and TOK. Our tutoring center has a team of instructors with rich experience and knowledge waiting for you. Please feel free to come for a trial lesson."
       },
@@ -668,7 +668,7 @@ export const tutors_list = [
           "International Christian University."
         ],
         subjects: [
-          "EP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
+          "Pre-MYP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
         ],
         comment: "I excel in subjects like I&S and economics. Rather than simply providing answers, I focus on drawing out each student's understanding in a way that reflects the IB philosophy. I aim to support learning not only for the tasks at hand but also with consideration for the MYP, DP, and beyond!"
       },
@@ -679,7 +679,7 @@ export const tutors_list = [
           "Waseda University, School of International Program"
         ],
         subjects: [
-          "EP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
+          "Pre-MYP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
         ],
         comment: "英語のスキルがゼロに近いところからMYPに入り言語の壁や課題に苦戦しましたが、試行錯誤を繰り返したIBの生活はとても充実していて成長できたと感じています。IBで培ったスキルや経験を生かして、英語の勉強や日々の学習をサポートできるように勤めてまいります。T-BASで皆さんにお会いできることを楽しみにしております。"
       },
@@ -692,7 +692,7 @@ export const tutors_list = [
           "Studied abroad in Australia"
         ],
         subjects: [
-          "EnglishB(HL)", "EP", "JapaneseA(HL)", "Math(MYP)", "MYP"
+          "Pre-MYP", "MYP", "DP", "History(HL)",  "JapaneseA(HL)", "Math(MYP)"
         ],
         comment: "I entered the MYP without any overseas experience, but I have felt my English skills grow through daily studies and studying abroad. In addition to daily learning support, I will do my best to utilize my experiences from the IB for recommendations and English proficiency exam preparation. I look forward to working with you!"
       },
@@ -700,7 +700,7 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "University of Toronto"
+          "University of Toronto,Faculty of engineering science",
         ],
         subjects: [
           "MathAA(HL)", "Phy(HL)", "Chem(SL)"
@@ -716,7 +716,7 @@ export const tutors_list = [
           "Studied abroad in the UK"
         ],
         subjects: [
-          "Core", "EnglishA/B", "EP", "History", "I＆S", "JapaneseA/B", "MYP"
+          "Core", "EnglishA/B",  "History", "I＆S", "JapaneseA/B", "MYP", "DP"
         ],
         comment: "After advancing to the Faculty of Letters at Keio University, I am now majoring in English Literature at the University of Edinburgh. I can teach a wide range of students, focusing on English and Japanese. I also have extensive knowledge of both domestic and overseas entrance exams. I look forward to seeing you in a trial lesson!"
       },
@@ -728,7 +728,7 @@ export const tutors_list = [
           "Graduated from an overseas IB program (IBDP completed)"
         ],
         subjects: [
-          "DP", "EP", "MYP", "MathAA(SL)", "Chem(SL)"
+           "Pre-MYP", "MYP", "DP", "MathAA(SL)", "Chem(SL)"
         ],
         comment: "Hello! I obtained my IB Diploma overseas. I can use my experiences to support students not only in their studies but also with overseas entrance exams and life after advancing to university. I look forward to working with you!"
       },
@@ -740,7 +740,7 @@ export const tutors_list = [
           "Tokyo West International School → Tamagawa Academy IB(IBDP completed)"
         ],
         subjects: [
-          "Biology", "English A", "EP", "History", "Japanese", "Math(AI)", "MYP"
+           "MYP",  "DP", "Biology", "English A",  "History", "Japanese", "Math(AI)"
         ],
         comment: "I’m bilingual in English and Japanese and a graduate of the IB MYP and DP program. I look forward to teaching all of you. If you have any questions, feel free to ask me anything!!"
       },
@@ -751,7 +751,7 @@ export const tutors_list = [
           "International Christian University (ICU)"
         ],
         subjects: [
-          "MYP", "DP", "Bio(HL)", "Econ(HL)"
+          "MYP", "DP", "Bio(HL)", "Econ(HL)", "Math(AI)"
         ],
         comment: "During my first year of middle school, my English skills were so low that I failed the Eiken Level 5 exam, but in the end, I was able to complete the DP with decent grades. Surrounded by highly skilled students with rich overseas experience, there were many times I thought about quitting the IB. However, I’m glad I persevered until the end. I believe that if you put in the effort, results will eventually come. I hope to help improve those results, so let’s work hard together!"
       },
@@ -763,21 +763,12 @@ export const tutors_list = [
           "Graduated from Kaichi Nihonbashi High School with an IB Diploma (IBDP completed)"
         ],
         subjects: [
-          "MathAA(SL)", "MYP"
+          "Pre-MYP", "MYP", "DP", "MathAA(SL)", "Business","Geography"
         ],
         comment: "Hello! My motto is to support students and make learning enjoyable so that it doesn’t feel burdensome. I look forward to working with you!"
       },
       {
-        name: "Teacher _",
-        gender: "Male",
-        education: [
-          "Sophia University, Faculty of Law",
-          "Tamagawa IB graduate (IBDP obtained)"
-        ],
-        subjects: [
-          "MathAA(SL)", "MYP", "Bio(HL)"
-        ],
-        comment: "Hello! My motto is to support students and make learning enjoyable so that it doesn’t feel burdensome. I look forward to working with you!"
+        
       }
     ]
   }
@@ -788,11 +779,11 @@ export const tutors_acceptance = [
     heading: "講師の大学合格実績",
     colleges: [
       "慶應義塾大学文学部",
-      "慶應義塾大学総合政策学部(英語学位）",
+      "慶應義塾大学総合政策学部(GIGA）",
       "早稲田大学国際教養学部",
-      "早稲田社会科学部（英語学位）",
+      "早稲田社会科学部（TAISI）",
       "鹿児島大学医学部",
-      "慶應義塾大学経済学部(英語学位)",
+      "慶應義塾大学経済学部(PEARL)",
       "上智大学国際教養学部",
       "上智大学経済学部",
       "上智大学法学部国際関係法学科",
@@ -915,7 +906,7 @@ export const inPerson_WhySelect = [
           <br />
           スコアアップ率
           <br />
-          驚異の98.5%！
+          95%以上！(～2023年)
         </>),
         Description: "T-BASでは、学習のコツを指導するだけでなく、IB生に必要なタイムマネージメントの力をつけていきます。課題は時間をかけて質の高いものを作り上げるように意識を高めていきます。",
         ImageUrl: stats
