@@ -1078,13 +1078,13 @@ export const online_WhySelect = [
       },
       {
         SubHeading: (<>
-          Achievements: An astonishing 
+          Being able to understand 
           <br />
-          98.5% score improvement
+          What once seemed difficult
           <br />
-          rate after joining!
+          Boosts motivation and learning process!
         </>),
-        Description: "At T-BAS, we not only teach study techniques but also help IB students develop essential time management skills. We encourage students to invest time in creating high-quality assignments.",
+        Description: "At T-BAS, we do lessons using both English and Japanese to fully support the students.We not only teach study techniques but also help IB students develop essential time management skills. We encourage students to invest time in creating high-quality assignments.",
         ImageUrl: stats
       },
       {
