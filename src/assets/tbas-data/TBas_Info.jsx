@@ -335,7 +335,7 @@ export const courseInfo = [
   }
 ];
 
-export const Customer reviews = [
+export const testimonials = [
   {
     heading: "ご利用者の声",
     learnMore: "もっと見る",
