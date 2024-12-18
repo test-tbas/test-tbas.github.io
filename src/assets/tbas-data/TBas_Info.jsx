@@ -273,7 +273,7 @@ export const courseInfo = [
         Features: [
           "DP学習＆生活サポート",
           "DP試験対策指導",
-          "EEやIAの指導",
+          "EEやIAのサポート",
           (<>
             大学入試アドバイス＆
             <HiddenBrSm />
@@ -321,7 +321,7 @@ export const courseInfo = [
         Features: [
           "DP Learning & Life Support",
           "DP Exam Preparation Guidance",
-          "Guidance for EE (Extended Essay) and IA (Internal Assessment)",
+          "support for EE (Extended Essay) and IA (Internal Assessment)",
           (<>
             University entrance exam advice and 
             <HiddenBrSm />
