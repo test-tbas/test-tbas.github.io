@@ -10,9 +10,13 @@ import teach1 from "assets/tbas-images/courses/teach-1.jpeg";
 import teach2 from "assets/tbas-images/courses/teach-2.jpeg";
 import walk from "assets/tbas-images/courses/walk.jpeg";
 import stats from "assets/tbas-images/courses/stats.jpeg";
-import teacher1 from "assets/tbas-images/courses/teacher-1.jpeg";
+import inPerson1 from "assets/tbas-images/courses/inPerson-1.jpeg";
+import inPerson2 from "assets/tbas-images/courses/inPerson-2.jpeg";
 import teachers from "assets/tbas-images/courses/teachers.png";
 import online from "assets/tbas-images/courses/online.jpeg";
+import online2 from "assets/tbas-images/courses/online-2.jpeg";
+import online3 from "assets/tbas-images/courses/online-3.jpeg";
+
 import hand from "assets/tbas-images/courses/hand.jpeg";
 
 // home page related information
@@ -909,7 +913,7 @@ export const inPerson_WhySelect = [
           やる気がアップ！
         </>),
         Description: "T-BASでは英語だけでなく日本語も使って分からないことを分かるまで丁寧にレッスンします。また、IB生に必要なタイムマネージメントの力もつけていきます。課題は時間をかけて質の高いものを作り上げるように意識を高めていきます。",
-        ImageUrl: stats
+        ImageUrl: inPerson1
       },
       {
         SubHeading: (<>
@@ -918,7 +922,7 @@ export const inPerson_WhySelect = [
           すごい！
         </>),
         Description: "T-BASは塾長がいるので、生徒も保護者も日頃から何でも気軽に相談することが出来ます。自信を持って楽しく学習が出来るようにサポートします。塾長は「保護者＆生徒＆講師」を連携させて質の高い授業を提供するように講師を導きます。また、プレMYP/MYPコースはレッスンの学習報告も閲覧できるので学習状況が分かり保護者も安心です。",
-        ImageUrl: teacher1
+        ImageUrl: inPerson2
       },
       {
         SubHeading: "講師がすごい！",
@@ -966,7 +970,7 @@ export const inPerson_WhySelect = [
           Boosts motivation and learning process!
         </>),
         Description: "At T-BAS, we do lessons using both English and Japanese to fully support the students.we not only teach study techniques but also help IB students develop essential time management skills. We encourage students to invest time in creating high-quality assignments.",
-        ImageUrl: stats
+        ImageUrl: inPerson1
       },
       {
         SubHeading: (<>
@@ -975,7 +979,7 @@ export const inPerson_WhySelect = [
           amazing!
         </>),
         Description: "T-BAS has a director, making it easy for both students and parents to consult about anything at any time. We provide support to ensure that students can learn confidently and enjoyably. The director guides the instructors to deliver high-quality lessons by fostering collaboration between parents, students, and teachers. Additionally, in the pre-MYP/MYP courses, parents can view lesson progress reports, giving them insight into their child's learning status for peace of mind.",
-        ImageUrl: teacher1
+        ImageUrl: inPerson2
       },
       {
         SubHeading: "The instructors are amazing!",
@@ -1006,7 +1010,7 @@ export const online_WhySelect = [
           レッスン
         </>),
         Description: "1:1で講師と対話しながらのレッスンなのでレッスン最後まで集中することが出来ます。お子様の理解度に合わせた丁寧な指導で成績アップを目指します。",
-        ImageUrl: teach2
+        ImageUrl: online2
       },
       {
         SubHeading: (<>
@@ -1028,7 +1032,7 @@ export const online_WhySelect = [
         
         </>),
         Description: "T-BASでは英語だけでなく日本語も使って分からないことを分かるまで丁寧にレッスンします。また、IB生に必要なタイムマネージメントの力をつけていきます。課題は時間をかけて質の高いものを作り上げるように意識を高めていきます。",
-        ImageUrl: stats
+        ImageUrl: online3
       },
       {
         SubHeading: (<>
@@ -1065,7 +1069,7 @@ export const online_WhySelect = [
           lessons
         </>),
         Description: "With one-on-one lessons, students can interact with the instructor, allowing them to maintain focus throughout the session. We provide careful instruction tailored to each child's understanding, aiming for improved academic performance.",
-        ImageUrl: teach2
+        ImageUrl: online2
       },
       {
         SubHeading: (<>
@@ -1085,7 +1089,7 @@ export const online_WhySelect = [
           Boosts motivation and learning process!
         </>),
         Description: "At T-BAS, we do lessons using both English and Japanese to fully support the students.We not only teach study techniques but also help IB students develop essential time management skills. We encourage students to invest time in creating high-quality assignments.",
-        ImageUrl: stats
+        ImageUrl: online3
       },
       {
         SubHeading: (<>
