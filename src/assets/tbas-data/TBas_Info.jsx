@@ -452,7 +452,7 @@ export const testimonials = [
 
 export const tutors_list = [
   {
-    heading: "講師紹介",
+    heading: "講師紹介(一部掲載)",
     eduHeading: "経歴：",
     subHeading: "担当科目：",
     comHeading: "コメント：",
@@ -604,7 +604,7 @@ export const tutors_list = [
     ]
   },
   {
-    heading: "Instructor Introductions",
+    heading: "Instructor Introductions(partial publication)",
     eduHeading: "Background：",
     subHeading: "Subjects Taught:",
     comHeading: "Comments：",
