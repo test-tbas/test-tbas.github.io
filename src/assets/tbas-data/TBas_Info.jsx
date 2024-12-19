@@ -882,7 +882,7 @@ export const inPerson_WhySelect = [
           <br />
           立ち寄れる
         </>),
-        Description: "玉川学園前駅北口から徒歩１分！こんなに便利で落ち着いた学習環境を提供できるのはT-BASだけです！",
+        Description: "玉川学園前駅北口から徒歩１分！T-BASはお子様たちに安心で便利な落ち着いた学習環境を提供しています。",
         ImageUrl: walk
       },
       {
