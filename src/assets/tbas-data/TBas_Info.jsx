@@ -1270,7 +1270,7 @@ export const faqInfo = [
       },
       {
         question: "入塾までの流れを教えて下さい。",
-        answer: (<>まずはお電話かメールで要望をお聞かせ下さい。<HiddenBrSm/>
+        answer: (<>まずは公式LINE「T-BAS玉川学園」から又はお電話かメールでご相談下さい。<HiddenBrSm/>
           ご希望であれば、体験レッスン(1時間3300円)や塾長との面談(無料)ができますのでご利用下さい。<HiddenBrSm/>
           その後、レッスン日時と講師が決まり次第レッスン開始になります。
           </>)
@@ -1408,7 +1408,7 @@ export const faqInfo = [
       },
       {
         question: "Please tell me the process for enrollment.",
-        answer: (<>First, please let us know your requests by phone or email. <HiddenBrSm/>
+        answer: (<>First, please let us know your requests by our official LINE account「T-BAS玉川学園」, or by phone or email. <HiddenBrSm/>
           If you wish, you can take a trial lesson (1 hour for 3,300 yen) or have a meeting with the director (free of charge).<HiddenBrSm/>
           After that, lessons will start as soon as the schedule and instructor are determined.
           </>)
