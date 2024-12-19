@@ -594,7 +594,7 @@ export const tutors_list = [
         subjects: [
           "MYP", "DP", "Bio(HL)", "Econ(HL)", "Math(AI)"
         ],
-        comment: "中学1年に頃に英検5級に落ちたほどの英語力だった私ですが、最後はDPをそれなりの成績で修めることができました。英語力の高い海外経験豊富な生徒に囲まれながら何度IBを辞めようと思った事でしょうか。しかし、最後まで諦めずに続けて良かったと思っています。努力すれば結果が付いてくる時代は必ず訪れます。その結果を少しでも良くするお手伝いをさせていただければと思いますので、一緒に頑張りましょう！"
+        comment: "中学1年の頃に英検5級に落ちたほどの英語力だった私ですが、最後はDPをそれなりの成績で修めることができました。英語力の高い海外経験豊富な生徒に囲まれながら何度IBを辞めようと思った事でしょうか。しかし、最後まで諦めずに続けて良かったと思っています。努力すれば結果が付いてくる時代は必ず訪れます。その結果を少しでも良くするお手伝いをさせていただければと思いますので、一緒に頑張りましょう！"
       },
       {
         name: "Teacher _",
@@ -608,18 +608,7 @@ export const tutors_list = [
         ],
         comment: "こんにちは！僕は生徒さんに寄り添い、勉強が苦にならないよう楽しく授業するのがモットーです！よろしくお願いいたします！"
       },
-      {
-        name: "Teacher _",
-        gender: "Male",
-        education: [
-          "上智大学法学部",
-          "玉川IB卒（IBDP取得済）"
-        ],
-        subjects: [
-          "MathAA(SL)", "MYP", "Bio(HL)"
-        ],
-        comment: "こんにちは！僕は生徒さんに寄り添い、勉強が苦にならないよう楽しく授業するのがモットーです！よろしくお願いいたします！"
-      }
+      
     ]
   },
   {
@@ -741,7 +730,7 @@ export const tutors_list = [
         gender: "Female",
         education: [
           "University of Hawaii",
-          "Tokyo West International School → Tamagawa Academy IB(IBDP completed)"
+          "Tamagawa Academy IB(IBDP completed)"
         ],
         subjects: [
            "MYP",  "DP", "Biology", "English A",  "History", "Japanese", "Math(AI)"
