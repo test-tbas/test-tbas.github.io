@@ -1154,7 +1154,7 @@ export const faqInfo = [
     lesson:[
       {
         question: "体験レッスンはやっていますか？",
-        answer: "はい、1時間3300円で受講できます。"
+        answer: "はい、1時間3300円で受講できます。公式LINE「T-BAS玉川学園」から簡単にお申込みが出来ますのでご利用ください。"
       },
       {
         question: "レッスン形態について教えてください。",
@@ -1291,7 +1291,8 @@ export const faqInfo = [
     lesson:[
       {
         question: "Do you offer trial lessons?",
-        answer: "Yes, you can take a trial lesson for 3,300 yen per hour."
+        answer: "Yes, you can take a trial lesson for 3,300 yen per hour.You can easily apply through the official Line「T-BAS玉川学園」account.
+          "
       },
       {
         question: "Please tell me about the lesson formats.",
