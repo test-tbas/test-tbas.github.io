@@ -353,10 +353,6 @@ export const testimonials = [
         description: "大変お世話になりありがとうございました。先輩である先生方には、IBの実践的な知恵を教えていただき感謝しております。知らないままだったら落第の道だったかもしれません。塾長の適切なアドバイスにより救っていただき心より感謝いたします。指定校推薦という道を教えていただいたことも有り難く、その中で行きたい大学も見つけられたのは何よりでした。いろいろとご指導いただき本当にありがとうございました。"
       },
       {
-        subHeading: "試験では不得意科目から脱しつつあるような好結果がでました",
-        description: "今学期の成績はお陰さまで、Mathは努力が実り、力がつき、安定してきたようです。試験では不得意科目から脱しつつあるような好結果がでました。確実に進級への自信と意欲に直結しております。改めまして温かいお支えに感謝しております。"
-      },
-      {
         subHeading: "自信と安心に繋がっています",
         description: "いつもお世話になっております。IBのアセスメントは保護者でも理解することが難しいことが多々あり、T-BASのサポートには大変感謝しております。最近IBをご卒業された先輩方が生徒目線で指導して下さり、本人の自信と安心に繋がっております。宿題をサポート下さったり、試験前の復習、カリキュラムの予習などのご指導が特に助かっております。これからもどうぞよろしくお願い致します。"
       },
@@ -393,7 +389,7 @@ export const testimonials = [
         description: "塾でお世話になり始め、授業がよく分かるようになった、とIB教育の学ぶ楽しさを知り充実した日々です。"
       },
       {
-        subHeading: "進級への自身と意欲に直結しています",
+        subHeading: "進級への自信と意欲に直結しています",
         description: "今学期の成績はお陰さまで、Mathは努力が実り、力がつき、安定してきたようです。試験では不得意科目から脱しつつあるような好結果がでました。確実に進級への自信と意欲に直結しております。改めまして温かいお支えに感謝しております。"
       }
     ]
@@ -409,10 +405,6 @@ export const testimonials = [
       {
         subHeading: "If I hadn't joined, I might have ended up failing.",
         description: "Thank you very much for all your help. I am grateful to the teachers, who are my seniors, for teaching me practical wisdom about the IB. If I had remained unaware, I might have ended up failing. I sincerely appreciate being saved by the principal’s appropriate advice. I am also thankful for being informed about the designated school recommendation pathway, which helped me find the university I want to attend. Thank you very much for all the guidance you provided."
-      },
-      {
-        subHeading: "I have been able to achieve good results in the exams, gradually overcoming my weak subjects.",
-        description: "Thanks to your support, my grades this semester have improved. In Math, my efforts have paid off, and I seem to be stabilizing. I have achieved good results in the exam, gradually overcoming my weak subjects. This has certainly lead to confidence and motivation for advancing to the next grade. Once again, I sincerely appreciate your warm support."
       },
       {
         subHeading: "I have been able to gain confidence and reassurance.",
