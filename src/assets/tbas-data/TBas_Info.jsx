@@ -1174,7 +1174,7 @@ export const faqInfo = [
       {
         question: "どのような先生が教えるのでしょうか？",
         answer: (<>IBコースは全員がIBDP取得済みの講師です。<HiddenBrSm/>
-                その中でも成績上位の玉川学園IB卒の講師が多く在籍しています。<HiddenBrSm/>
+                その中でも成績上位の玉川学園IB卒の講師や他校IB卒の講師が多く在籍しています。<HiddenBrSm/>
                 さらにT-BASの講師は塾長の指導教育を受けていますので質の高いレッスンをご提供します。
                 </>)
       },
@@ -1312,7 +1312,7 @@ export const faqInfo = [
       {
         question: "What kind of teachers will be teaching?",
         answer: (<>Every instructor teaching the Ib course have obtained the IB diploma.<HiddenBrSm/>
-                Among them, many instructors are top-performing graduates from Tamagawa Gakuen IB.<HiddenBrSm/>
+                Among them, many instructors are top-performing graduates from Tamagawa Gakuen IB　and other school IB.<HiddenBrSm/>
                 Furthermore, T-BAS instructors receive guidance and training from the director, ensuring high-quality lessons.
                 </>)
       },
