@@ -1291,8 +1291,7 @@ export const faqInfo = [
     lesson:[
       {
         question: "Do you offer trial lessons?",
-        answer: "Yes, you can take a trial lesson for 3,300 yen per hour.You can easily apply through the official Line「T-BAS玉川学園」account.
-          "
+        answer: "Yes, you can take a trial lesson for 3,300 yen per hour.You can easily apply through the official Line「T-BAS玉川学園」account."
       },
       {
         question: "Please tell me about the lesson formats.",
