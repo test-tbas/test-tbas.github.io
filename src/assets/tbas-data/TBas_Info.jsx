@@ -1,6 +1,6 @@
 import tw from "twin.macro";
 
-import { HiddenBrLgXl, HiddenBr, HiddenBrSm, HiddenBrMd, HiddenBrLg, HiddenBrXl, HiddenBr_BreakPoint, HiddenBr_BreakPoint2, HiddenBr_BreakPoint3, HightlightedText} from "assets/styles/TailwindComponents.jsx";
+import { HiddenBrLgXl, HiddenBr, HiddenBrSm, HiddenBrMd, HiddenBrLg, HiddenBrXl, HiddenBr_BreakPoint, HiddenBr_BreakPoint2, HiddenBr_BreakPoint3, HiddenBr_BreakPoint4, HightlightedText} from "assets/styles/TailwindComponents.jsx";
 
 import skill1 from "assets/tbas-images/home/HP_01.svg";
 import skill2 from "assets/tbas-images/home/HP_02.svg";
@@ -23,16 +23,16 @@ import hand from "assets/tbas-images/courses/hand.jpeg";
 
 export const header_footer = [
   {
-    links: ["T-BASとは", "コースについて", "対面レッスン", "オンラインレッスン", "講師紹介", "ご利用者の声", "よくあるご質問", "アクセス", "お問い合わせ・相談"],
-    endpoints:["aboutTbas", "inPerson", "online", "tutors", "feedback", "faq", "access", "contact"],
+    links: ["T-BASとは", "授業について", "対面レッスン", "オンラインレッスン", "講師紹介", "ご利用者の声", "FAQ", "アクセス", "講師募集申込み", "体験レッスン・入塾相談"],
+    endpoints:["aboutTbas", "inPerson", "online", "tutors", "feedback", "faq", "access", "apply", "contact"],
     address: (<>〒194-0041 東京都町田市玉川学園 <HiddenBr_BreakPoint2/>2-11-22高橋ビル301</>),
     phone: "TEL/FAX：042-851-8680",
     hours: "電話受付時間：15:00-19:00",
     email: "メール：tbastamagawa@gmail.com"
   },
   {
-    links: ["About T-BAS", "Courses", "In Person", "Online", "Teachers", "Feedback", "FAQ", "Access", "Contact Us"],
-    endpoints:["aboutTbas", "inPerson", "online", "tutors", "feedback", "faq", "access", "contact"],
+    links: ["About T-BAS", "Courses", "In Person", "Online", "Teachers", "Feedback", "FAQ", "Access", "Become a Teacher", (<>Trial Lesson <br/> and Consultation</>)],
+    endpoints:["aboutTbas", "inPerson", "online", "tutors", "feedback", "faq", "access", "apply", "contact"],
     address: (<>〒194-0041 東京都町田市玉川学園 <HiddenBr_BreakPoint2/>2-11-22高橋ビル301</>),
     phone: "TEL/FAX：042-851-8680",
     hours: "Hours：15:00-19:00",
@@ -1526,6 +1526,118 @@ export const contactUsForm = [
         entry: "Inquiry details.",
         example: "Current grades / consultation details."
       }
+    ]
+  }
+]
+
+export const applyForm = [
+  {
+    heading: "お問い合わせ",
+    subHeading: "こちらは「T-BAS玉川学園講師募集」お問い合わせフォームです。仕事内容や勤務時間などなどお気軽にお問い合わせください。",
+    flowHeading: "★公式LINE「T-BAS講師募集」から応募をお願い致します",
+    flowSubHeading: "講師応募から採用までの流れ：",
+    flow: [
+      (<>公式LINEから<HiddenBr_BreakPoint4/>申込み</>),
+      (<>T-BASから<HiddenBr_BreakPoint4/>LINEにて返信</>),
+      "面接",
+      "レッスン開始"
+    ],
+    teacherHeading: "⭐︎こんな方にオススメ：",
+    teacherBullets: [
+      "教えることが好きな方",
+      "英語を活かして働きたい方",
+      "IBでの知識や経験を活かして働きたい方",
+      "IB DPを取得した方"
+    ],
+    lineHeading: "⭐︎T-BAS公式LINEへの３つの追加方法：",
+    lineBullets: [
+      ["LINEの友達追加から","「T-BAS玉川学園」","で検索して追加"],
+      "右のQRコードから追加",
+      "右のLINEアイコンをタップして追加"
+    ],
+    keyPoints: [
+      "※ 担当学年（MYP・DP生）や担当科目を選べます。",
+      "※ 遠方にお住まいの方はオンラインでのレッスンも可能です。"
+    ]
+  },
+  {
+    heading: "Contact Us",
+    subHeading: "こちらは「T-BAS玉川学園講師募集」お問い合わせフォームです。仕事内容や勤務時間などなどお気軽にお問い合わせください。",
+    flowHeading: "★公式LINE「T-BAS講師募集」から応募をお願い致します",
+    flowSubHeading: "講師応募から採用までの流れ：",
+    flow: [
+      "公式LINEから申込み",
+      "T-BASからLINEにて返信",
+      "面接",
+      "レッスン開始"
+    ],
+    teacherHeading: "⭐︎こんな方にオススメ：",
+    teacherBullets: [
+      "教えることが好きな方",
+      "英語を活かして働きたい方",
+      "IBでの知識や経験を活かして働きたい方",
+      "IB DPを取得した方"
+    ],
+    lineHeading: "⭐︎T-BAS公式LINEへの３つの追加方法：",
+    lineBullets: [
+      ["LINEの友達追加から","「T-BAS玉川学園」","で検索して追加"],
+      "右のQRコードから追加",
+      "右のLINEアイコンをタップして追加"
+    ],
+    keyPoints: [
+      "※ 担当学年（MYP・DP生）や担当科目を選べます。",
+      "※ 遠方にお住まいの方はオンラインでのレッスンも可能です。"
+    ]
+  }
+]
+
+export const contactForm = [
+  {
+    heading: "お問い合わせ",
+    subHeading: (<>こちらはT-BAS玉川学園のお問い合わせフォームです。体験レッスン/入塾相談/その他、IB（国際バカロレア）に関するご質問などお気軽にお問い合わせください。</>),
+    flowHeading: "★T-BAS公式LINEでのお問い合わせ後の流れ",
+    flowSubHeading: "体験レッスン・入塾相談・その他でのお申込みの場合：",
+    flow: [
+      (<>公式LINEから<HiddenBr_BreakPoint4/>申込み</>),
+      "体験レッスン申込み",
+      "入塾相談",
+      (<>T-BASから<HiddenBr_BreakPoint4/>LINEにて返信</>),
+      "ご予約"
+    ],
+    lineHeading: "⭐︎T-BAS公式LINEへの３つの追加方法：",
+    lineBullets: [
+      ["LINEの友達追加から","「T-BAS玉川学園」","で検索して追加"],
+      "右のQRコードから追加",
+      "右のLINEアイコンをタップして追加"
+    ],
+    keyPoints: [
+      "※ 体験レッスンのご料金：3,300円（１時間：内10分〜15分は学習相談＋学習報告）",
+      "※ 対面（推奨）またはオンラインレッスン",
+      "※ ご記入の内容によって、より詳しくお話を伺うために当塾からお電話やLINEを差し上げる場合がございますこと、予めご了承ください。"
+    ]
+  },
+  {
+    heading: "Contact Us",
+    subHeading: "こちらはT-BAS玉川学園のお問い合わせフォームです。体験レッスン/入塾相談/その他、IB（国際バカロレア）に関するご質問などお気軽にお問い合わせください。",
+    flowHeading: "★T-BAS公式LINEでのお問い合わせ後の流れ",
+    flowSubHeading: "体験レッスン・入塾相談・その他でのお申込みの場合：",
+    flow: [
+      "公式LINEから申込み",
+      "体験レッスン申込み",
+      "入塾相談",
+      "T-BASからLINEにて返信",
+      "ご予約"
+    ],
+    lineHeading: "⭐︎T-BAS公式LINEへの３つの追加方法：",
+    lineBullets: [
+      ["LINEの友達追加から","「T-BAS玉川学園」","で検索して追加"],
+      "右のQRコードから追加",
+      "右のLINEアイコンをタップして追加"
+    ],
+    keyPoints: [
+      "※ 体験レッスンのご料金：3,300円（１時間：内10分〜15分は学習相談＋学習報告）",
+      "※ 対面（推奨）またはオンラインレッスン",
+      "※ ご記入の内容によって、より詳しくお話を伺うために当塾からお電話やLINEを差し上げる場合がございますこと、予めご了承ください。"
     ]
   }
 ]

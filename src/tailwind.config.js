@@ -378,6 +378,7 @@ module.exports = {
       bold: '700',
       extrabold: '800',
       black: '900',
+      extrablack: '1200'
     },
     height: theme => ({
       auto: 'auto',

@@ -28,7 +28,7 @@ const NavLinks = tw.div`inline-block flex cursor-pointer`;
  * hocus:bg-primary-700 will apply the bg-primary-700 class on hover or focus
  */
 const NavLink = tw.a`
-  text-sm md:text-base lg:text-base xl:text-lg 2xl:text-xl
+  text-sm md:text-base xl:text-lg 
   lg:mx-2 xl:mx-4 2xl:mx-6 my-2 lg:my-0
   py-2 
   font-semibold tracking-wide transition duration-300
@@ -73,7 +73,7 @@ const LgDesktopNav = tw(DesktopNavLinks)`hidden lg:flex lg:flex-wrap lg:pt-8 lg:
 const DropdownContainer = tw.div`relative`;
 const Dropdown = tw.div`select-none cursor-pointer hover:border-primary-500 transition-colors duration-300`;
 const DropdownParent = tw.div`flex justify-between items-center`;
-const DropdownParentText = tw.div`text-sm md:text-base lg:text-base xl:text-lg 2xl:text-xl 
+const DropdownParentText = tw.div`text-sm md:text-base xl:text-lg 
 my-2 lg:my-0 py-2 
   font-semibold tracking-wide transition duration-300
   border-b-2 border-transparent 
@@ -180,11 +180,12 @@ export default function Header(props) {
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[4])}>{currInfo.links[5]}</NavLink>
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[5])}>{currInfo.links[6]}</NavLink>
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[6])}>{currInfo.links[7]}</NavLink>
+      <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[7])}>{currInfo.links[8]}</NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink onClick={() => navigate(currNavPath+currInfo.endpoints[7])}>
+      <PrimaryLink onClick={() => navigate(currNavPath+currInfo.endpoints[8])}>
         <EmailIcon tw="w-6 h-6 inline mr-4" />
-        {currInfo.links[8]}
+        {currInfo.links[9]}
       </PrimaryLink>
     </NavLinks>
   ];
@@ -197,10 +198,12 @@ export default function Header(props) {
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[4])}>{currInfo.links[5]}</NavLink>
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[5])}>{currInfo.links[6]}</NavLink>
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[6])}>{currInfo.links[7]}</NavLink>
+      <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[7])}>{currInfo.links[8]}</NavLink>
+
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href={currNavPath+currInfo.endpoints[7]}>
-        {currInfo.links[8]}
+      <PrimaryLink onClick={() => navigate(currNavPath+currInfo.endpoints[8])}>
+        {currInfo.links[9]}
       </PrimaryLink>
     </NavLinks>
   ];

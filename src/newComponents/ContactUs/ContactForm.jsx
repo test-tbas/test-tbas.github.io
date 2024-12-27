@@ -38,7 +38,7 @@ const Textarea = styled(Input).attrs({as: "textarea"})`
 const SubmitButton = tw(PrimaryButtonBase)`inline-block mt-8`
 
 var currInfo = contactUsForm[0];
-export default function TrialLesson(props) {
+export default function ContactForm(props) {
   if(props.language === "ENG"){
     currInfo = contactUsForm[1];
   }

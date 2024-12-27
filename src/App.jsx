@@ -8,6 +8,8 @@ import InPersonPage from "pages/InPersonPage.jsx";
 import OnlinePage from "pages/OnlinePage.jsx";
 import TutorsPage from "pages/TutorsPage.jsx"
 import ContactPage from "pages/ContactPage.jsx";
+import ApplyPage from "pages/ApplyPage.jsx";
+
 import FeedbackPage from "pages/FeedbackPage.jsx";
 import AccessPage from "pages/AccessPage.jsx";
 import FaqPage from "pages/FaqPage.jsx";
@@ -48,6 +50,9 @@ export default function App() {
 
           <Route path="/contact" element = {<ContactPage language = "JP"/>} />
           <Route path="/eng/contact" element = {<ContactPage language = "ENG"/>} />
+
+          <Route path="/apply" element = {<ApplyPage language = "JP"/>} />
+          <Route path="/eng/apply" element = {<ApplyPage language = "ENG"/>} />
         </Routes>
       </Router>
     </>

@@ -31,10 +31,10 @@ const TextContentHeading = tw(SubMainHeading3Template)`text-left text-tbasMain-p
 const TextContentDescription = tw(MainParagraph4Template)`text-left text-main-black font-light`;
 const ClosingRemark = tw(TextContentDescription)`text-right`
 
-const ImageColumn = tw.div`w-1/2 2xl:w-3/4 h-full`;
+const ImageColumn = tw.div`w-1/2 2xl:w-3/4 h-full pr-4 lg:pr-6 2xl:pr-8`;
 const Image = styled.div(props => [
   `background-image: url("${props.imageSrc}");`,
-  tw`bg-cover bg-[left_50%] sm:bg-center object-center m-auto 
+  tw`bg-cover bg-center sm:bg-center object-center m-auto 
   w-full h-full rounded-lg`
 ]);
 

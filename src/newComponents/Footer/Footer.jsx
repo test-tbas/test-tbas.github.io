@@ -11,6 +11,14 @@ import { ContentWithVerticalPadding as ContainerBase
 import logo from "assets/tbas-images/logo/TBAS-white-logo.svg";
 import { header_footer } from "assets/tbas-data/TBas_Info.jsx";
 
+
+import { ReactComponent as YoutubeIcon } from "assets/treact-images/youtube-icon.svg";
+import { ReactComponent as MailIcon } from "feather-icons/dist/icons/mail.svg";
+import { ReactComponent as InstagramIcon } from "assets/treact-images/instagram-logo.svg";
+import { ReactComponent as LineIcon } from "assets/treact-images/Line_Logo.svg";
+import lineLogo from "assets/tbas-images/logo/Line_logo.png";
+
+
 const NavLinks = tw.div`hidden md:inline-block cursor-pointer pt-4 text-main-white px-8 sm:px-0`;
 
 const NavLink = tw.a`
@@ -39,6 +47,14 @@ const LogoTextContainer = tw.div`flex flex-col w-full md:w-3/5`;
 const LogoText = tw.h5`md:pl-4 pt-6 text-lg lg:text-xl font-roboto text-main-white tracking-[.15em] font-medium`;
 const TopLogoText = tw(LogoText)`pt-0`
 const LogoLightText = tw(LogoText)`pt-2 font-light text-base lg:text-lg`;
+
+const SocialLinksContainer = tw.div`mt-6`;
+const SocialLink = styled.a`
+  ${tw`rounded-full p-3 cursor-pointer inline-block bg-main-white text-tbasMain-purple900 hover:text-tbasMain-orange transition duration-300 mx-4`}
+  svg {
+    ${tw`w-6 md:w-8 h-6 md:h-8`}
+  }
+`;
 
 var currPath = "/";
 var currInfo = header_footer[0];
@@ -77,7 +93,7 @@ export default function Footer(props) {
         <LogoLightText>
           {currInfo.hours}
         </LogoLightText>
-        <LogoText as="a" href={'mailto:anatano.koki@gmail.com'}>
+        <LogoText as="a" href={'mailto:tbastamagawa@gmail.com'}>
           {currInfo.email}
         </LogoText>
       </LogoTextContainer>
@@ -105,6 +121,20 @@ export default function Footer(props) {
             {tbasLogoLink}
           </LogoContainer>
           {tbasNavLinks}
+          <SocialLinksContainer>
+            {/* <SocialLink href="mailto:tbastamagawa@gmail.com">
+              <MailIcon />
+            </SocialLink> */}
+            <SocialLink href="https://www.instagram.com/tbas_tamagawa?igsh=eDR0OWRlbzd2Ym9t&utm_source=qr" target="_blank">
+              <InstagramIcon />
+            </SocialLink>
+            <SocialLink href="https://line.me/R/ti/p/@767mfkjh" target="_blank">
+              <LineIcon />
+            </SocialLink>
+            {/* <SocialLink href="https://twitter.com">
+              <TwitterIcon />
+            </SocialLink> */}
+          </SocialLinksContainer>
         </Row>
       </Content>
     </Container>
