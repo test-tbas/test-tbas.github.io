@@ -1562,7 +1562,7 @@ export const applyForm = [
   {
     heading: "Contact Us",
     subHeading: "This is the 「T-BAS Tamagawa Gakuen, Teacher Recruitment」 inquiry form. Please feel free to inquire about job descriptions, working hours, etc.",
-    flowHeading: "★Please apply through the official LINE 「T-BAS Instructor Recruitment」.",
+    flowHeading: "★Please apply through the official LINE 「T-BAS Instructor Recruitment」",
     flowSubHeading: "Steps from teacher application to employment：",
     flow: [
       "Apply from the official LINE",
