@@ -65,6 +65,7 @@ const Image = styled.div(props => [
   `background-image: url("${props.imageSrc}");`,
   tw`bg-contain bg-no-repeat bg-center object-center m-auto w-full h-full rounded-r-3xl`
 ]);
+const SocialLink = tw.a`cursor-pointer inline-block mx-4 w-full h-full`;
 
 var currInfo = contactForm[0];
 export default function ContactForm(props) {
@@ -155,7 +156,10 @@ export default function ContactForm(props) {
           </Bullets>
           <ImageColumn tw="md:pl-16 gap-x-2">
             <Image imageSrc={lineQR} />
-            <Image imageSrc={lineLogo} />
+            <SocialLink href="https://lin.ee/Gi1y1hz" target="_blank" >
+              <Image imageSrc={lineLogo} />
+            </SocialLink>
+            
           </ImageColumn>
           <lineLogo/>
         </Row>

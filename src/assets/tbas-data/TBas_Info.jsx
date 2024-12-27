@@ -1561,31 +1561,31 @@ export const applyForm = [
   },
   {
     heading: "Contact Us",
-    subHeading: "こちらは「T-BAS玉川学園講師募集」お問い合わせフォームです。仕事内容や勤務時間などなどお気軽にお問い合わせください。",
-    flowHeading: "★公式LINE「T-BAS講師募集」から応募をお願い致します",
-    flowSubHeading: "講師応募から採用までの流れ：",
+    subHeading: "This is the 「T-BAS Tamagawa Gakuen, Teacher Recruitment」 inquiry form. Please feel free to inquire about job descriptions, working hours, etc.",
+    flowHeading: "★Please apply through the official LINE 「T-BAS Instructor Recruitment」.",
+    flowSubHeading: "Steps from teacher application to employment：",
     flow: [
-      "公式LINEから申込み",
-      "T-BASからLINEにて返信",
-      "面接",
-      "レッスン開始"
+      "Apply from the official LINE",
+      "Reply from T-BAS on LINE",
+      "Interview",
+      "Begin teaching"
     ],
-    teacherHeading: "⭐︎こんな方にオススメ：",
+    teacherHeading: "⭐︎Recommended for：",
     teacherBullets: [
-      "教えることが好きな方",
-      "英語を活かして働きたい方",
-      "IBでの知識や経験を活かして働きたい方",
-      "IB DPを取得した方"
+      "People who love to teach",
+      "Those who want to work using English",
+      "Those who want to leverage their knowledge and experience in IB",
+      "Those who have obtained the IB DP"
     ],
-    lineHeading: "⭐︎T-BAS公式LINEへの３つの追加方法：",
+    lineHeading: "⭐︎3 ways to add to the official T-BAS LINE：",
     lineBullets: [
-      ["LINEの友達追加から","「T-BAS玉川学園」","で検索して追加"],
-      "右のQRコードから追加",
-      "右のLINEアイコンをタップして追加"
+      ["From Add Friend on LINE, search for","「T-BAS玉川学園」","and Add"],
+      "Add from QR code on the right",
+      "Tap the LINE icon on the right to add"
     ],
     keyPoints: [
-      "※ 担当学年（MYP・DP生）や担当科目を選べます。",
-      "※ 遠方にお住まいの方はオンラインでのレッスンも可能です。"
+      "※ You can choose the grade level (MYP and DP students) and subjects you are in charge of.",
+      "※ Online lessons are also available for those living far away."
     ]
   }
 ]
@@ -1617,26 +1617,26 @@ export const contactForm = [
   },
   {
     heading: "Contact Us",
-    subHeading: "こちらはT-BAS玉川学園のお問い合わせフォームです。体験レッスン/入塾相談/その他、IB（国際バカロレア）に関するご質問などお気軽にお問い合わせください。",
-    flowHeading: "★T-BAS公式LINEでのお問い合わせ後の流れ",
-    flowSubHeading: "体験レッスン・入塾相談・その他でのお申込みの場合：",
+    subHeading: "This is the inquiry form for T-BAS Tamagawa Gakuen. Please feel free to contact us for trial lesson/admission consultation/other questions about IB (International Baccalaureate).",
+    flowHeading: "★Flow of inquiry after making an inquiry on the official T-BAS LINE",
+    flowSubHeading: "For trial lesson, admission consultation, and other applications：",
     flow: [
-      "公式LINEから申込み",
-      "体験レッスン申込み",
-      "入塾相談",
-      "T-BASからLINEにて返信",
-      "ご予約"
+      "Apply from the official LINE",
+      "Submit Form",
+      "Consultation",
+      "Reply from T-BAS on LINE",
+      "Book Lesson"
     ],
-    lineHeading: "⭐︎T-BAS公式LINEへの３つの追加方法：",
+    lineHeading: "⭐︎3 ways to add to the official T-BAS LINE：",
     lineBullets: [
-      ["LINEの友達追加から","「T-BAS玉川学園」","で検索して追加"],
-      "右のQRコードから追加",
-      "右のLINEアイコンをタップして追加"
+      ["From Add Friend on LINE, search for","「T-BAS玉川学園」","and Add"],
+      "Add from QR code on the right",
+      "Tap the LINE icon on the right to add"
     ],
     keyPoints: [
-      "※ 体験レッスンのご料金：3,300円（１時間：内10分〜15分は学習相談＋学習報告）",
-      "※ 対面（推奨）またはオンラインレッスン",
-      "※ ご記入の内容によって、より詳しくお話を伺うために当塾からお電話やLINEを差し上げる場合がございますこと、予めご了承ください。"
+      "※ Fee for trial lesson: 3,300 yen (1 hour, of which 10-15 minutes is for study consultation + study report)",
+      "※ Face-to-face (recommended) or online lessons",
+      "※ Please understand that depending on the information you provide, we may call you or drop you a line to discuss your request in more detail."
     ]
   }
 ]

@@ -110,6 +110,7 @@ export default function Footer(props) {
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[5])}>{currInfo.links[6]}</NavLink>
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[6])}>{currInfo.links[7]}</NavLink>
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[7])}>{currInfo.links[8]}</NavLink>
+      <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[8])}>{currInfo.links[9]}</NavLink>
     </NavLinks>
   ];
 
@@ -128,7 +129,7 @@ export default function Footer(props) {
             <SocialLink href="https://www.instagram.com/tbas_tamagawa?igsh=eDR0OWRlbzd2Ym9t&utm_source=qr" target="_blank">
               <InstagramIcon />
             </SocialLink>
-            <SocialLink href="https://line.me/R/ti/p/@767mfkjh" target="_blank">
+            <SocialLink href="https://lin.ee/Gi1y1hz" target="_blank">
               <LineIcon />
             </SocialLink>
             {/* <SocialLink href="https://twitter.com">
