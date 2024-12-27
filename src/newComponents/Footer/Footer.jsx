@@ -22,7 +22,7 @@ import lineLogo from "assets/tbas-images/logo/Line_logo.png";
 const NavLinks = tw.div`hidden md:inline-block cursor-pointer pt-4 text-main-white px-8 sm:px-0`;
 
 const NavLink = tw.a`
-  text-sm lg:text-lg mx-2 lg:mx-6 my-2 lg:my-0
+  text-sm lg:text-lg mx-2 lg:mx-4 my-2 lg:my-0
   font-semibold tracking-wide transition duration-300
   pb-1 border-b-2 border-transparent hover:border-main-lightBlue hocus:text-main-lightBlue
 `;
@@ -110,7 +110,7 @@ export default function Footer(props) {
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[5])}>{currInfo.links[6]}</NavLink>
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[6])}>{currInfo.links[7]}</NavLink>
       <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[7])}>{currInfo.links[8]}</NavLink>
-      <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[8])}>{currInfo.links[9]}</NavLink>
+      <NavLink onClick={() => navigate(currNavPath+currInfo.endpoints[8])}>{currInfo.links[10]}</NavLink>
     </NavLinks>
   ];
 

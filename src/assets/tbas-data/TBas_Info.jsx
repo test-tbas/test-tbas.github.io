@@ -31,7 +31,7 @@ export const header_footer = [
     email: "メール：tbastamagawa@gmail.com"
   },
   {
-    links: ["About T-BAS", "Courses", "In Person", "Online", "Teachers", "Feedback", "FAQ", "Access", "Become a Teacher", (<>Trial Lesson <br/> and Consultation</>)],
+    links: ["About T-BAS", "Courses", "In Person", "Online", "Teachers", "Feedback", "FAQ", "Access", "Become a Teacher", (<>Trial Lesson <br/> and Consultation</>), "Trial Lesson and Consultation"],
     endpoints:["aboutTbas", "inPerson", "online", "tutors", "feedback", "faq", "access", "apply", "contact"],
     address: (<>〒194-0041 東京都町田市玉川学園 <HiddenBr_BreakPoint2/>2-11-22高橋ビル301</>),
     phone: "TEL/FAX：042-851-8680",
