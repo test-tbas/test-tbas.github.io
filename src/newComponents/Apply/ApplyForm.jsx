@@ -32,18 +32,19 @@ const Banner = tw(SubMainHeadingTemplate)`bg-tbasMain-purple500 text-main-white 
 
 const FlowHeading = tw(SubMainHeading3Template)`text-main-black font-black mx-4`;
 
-const Row = tw.div`flex flex-row `
+const Row = tw.div`flex flex-row`;
+const FlowContainer = tw.div`pt-6`;
 
 const Arrow = tw.div`flex flex-row pr-6`;
 const ArrowText = tw(SectionDescriptionBase)`text-main-white bg-main-red flex items-center justify-center h-full sm:pl-4 font-black`;
 const Triangle = tw.div`inline flex justify-center w-0 h-0 
 border-t-[30px] sm:border-t-[40px] border-t-tbasMain-purple500
 border-b-[30px] sm:border-b-[40px] border-b-tbasMain-purple500
-border-l-[10px] sm:border-l-[40px] border-l-transparent`;
+border-l-[8px] sm:border-l-[40px] border-l-transparent`;
 const RightTriangle = tw.div`inline flex justify-center w-0 h-0 
 border-t-[30px] sm:border-t-[40px] border-t-tbasMain-purple700
 border-b-[30px] sm:border-b-[40px] border-b-tbasMain-purple700
-border-r-[10px] sm:border-r-[40px] border-r-transparent`;
+border-r-[8px] sm:border-r-[40px] border-r-transparent`;
 
 const Bullets = tw.ul`list-disc font-YuGothic font-light text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl
 pl-8`;
@@ -71,56 +72,59 @@ export default function ApplyForm(props) {
       <Heading>{currInfo.heading}</Heading>
       <HorizontalLine />
       <HiddenBr_BreakPoint3 />
-      <ContentFormatted2>
+      <ContentFormatted2 tw="px-4 lg:px-0">
         <SubHeading>{currInfo.subHeading}</SubHeading>
         <Banner>{currInfo.flowHeading}</Banner>
         <FlowHeading tw="pt-8 lg:pt-16">{currInfo.flowSubHeading}</FlowHeading>
-        <Row tw="pt-6 hidden md:flex">
-          <Arrow>
-            <ArrowText>{currInfo.flow[0]}</ArrowText>
-            <Triangle tw="border-l-main-red border-b-transparent border-t-transparent"/>
-          </Arrow>
-          <Arrow>
-            <Triangle />
-            <ArrowText tw="bg-tbasMain-purple500">{currInfo.flow[1]}</ArrowText>
-            <Triangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
-          </Arrow>
-          <Arrow>
-            <Triangle />
-            <ArrowText tw="bg-tbasMain-purple500">{currInfo.flow[2]}</ArrowText>
-            <Triangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
-          </Arrow>
-          <Arrow>
-            <Triangle tw="border-l-transparent border-t-tbasMain-purple700 border-b-tbasMain-purple700"/>
-            <ArrowText tw="bg-tbasMain-purple700 px-4">{currInfo.flow[3]}</ArrowText>
-            <RightTriangle/>
-          </Arrow>
-        </Row>
-        <Row tw="pt-6 flex flex-col md:hidden px-4">
-          <Row>
+        <FlowContainer>
+          <Row tw="hidden md:flex">
             <Arrow>
-              <ArrowText tw="px-4">{currInfo.flow[0]}</ArrowText>
+              <ArrowText>{currInfo.flow[0]}</ArrowText>
               <Triangle tw="border-l-main-red border-b-transparent border-t-transparent"/>
             </Arrow>
             <Arrow>
               <Triangle />
-              <ArrowText tw="px-4 bg-tbasMain-purple500">{currInfo.flow[1]}</ArrowText>
+              <ArrowText tw="bg-tbasMain-purple500">{currInfo.flow[1]}</ArrowText>
               <Triangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
             </Arrow>
+            <Arrow>
+              <Triangle />
+              <ArrowText tw="bg-tbasMain-purple500">{currInfo.flow[2]}</ArrowText>
+              <Triangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
+            </Arrow>
+            <Arrow>
+              <Triangle tw="border-l-transparent border-t-tbasMain-purple700 border-b-tbasMain-purple700"/>
+              <ArrowText tw="bg-tbasMain-purple700 px-4">{currInfo.flow[3]}</ArrowText>
+              <RightTriangle/>
+            </Arrow>
           </Row>
-          <Row tw="pt-6 pl-16">
-          <Arrow>
-            <Triangle />
-            <ArrowText tw="px-4 bg-tbasMain-purple500">{currInfo.flow[2]}</ArrowText>
-            <Triangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
-          </Arrow>
-          <Arrow>
-            <Triangle tw="border-l-transparent border-t-tbasMain-purple700 border-b-tbasMain-purple700"/>
-            <ArrowText tw="bg-tbasMain-purple700 px-4">{currInfo.flow[3]}</ArrowText>
-            <RightTriangle/>
-          </Arrow>
+          <Row tw="flex flex-col md:hidden">
+            <Row>
+              <Arrow>
+                <ArrowText tw="px-2">{currInfo.flow[0]}</ArrowText>
+                <Triangle tw="border-l-main-red border-b-transparent border-t-transparent"/>
+              </Arrow>
+              <Arrow>
+                <Triangle />
+                <ArrowText tw="px-2 bg-tbasMain-purple500">{currInfo.flow[1]}</ArrowText>
+                <Triangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
+              </Arrow>
+            </Row>
+            <Row tw="pt-6 pl-16">
+              <Arrow>
+                <Triangle />
+                <ArrowText tw="px-4 bg-tbasMain-purple500">{currInfo.flow[2]}</ArrowText>
+                <Triangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
+              </Arrow>
+              <Arrow>
+                <Triangle tw="border-l-transparent border-t-tbasMain-purple700 border-b-tbasMain-purple700"/>
+                <ArrowText tw="bg-tbasMain-purple700 px-4">{currInfo.flow[3]}</ArrowText>
+                <RightTriangle/>
+              </Arrow>
+            </Row>
           </Row>
-        </Row>
+        </FlowContainer>
+        
         <SubHeading tw="underline">{currInfo.teacherHeading}</SubHeading>
         <Row tw="gap-x-10">
           <Bullets>

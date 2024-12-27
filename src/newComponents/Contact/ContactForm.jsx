@@ -32,7 +32,8 @@ const Banner = tw(SubMainHeadingTemplate)`bg-tbasMain-purple500 text-main-white 
 
 const FlowHeading = tw(SubMainHeading3Template)`text-main-black font-black`;
 
-const Row = tw.div`flex flex-row`
+const Row = tw.div`flex flex-row`;
+const FlowContainer = tw.div`pt-6`;
 
 const Arrow = tw.div`flex flex-row`;
 const ArrowText = tw(SectionDescriptionBase)`text-main-white bg-main-red flex items-center justify-center h-full pl-1 md:pl-4 font-black`;
@@ -82,39 +83,11 @@ export default function ContactForm(props) {
         <SubHeading>{currInfo.subHeading}</SubHeading>
         <Banner>{currInfo.flowHeading}</Banner>
         <FlowHeading tw="pt-8 lg:pt-16">{currInfo.flowSubHeading}</FlowHeading>
-        <Row tw="pt-6 hidden md:flex">
-          <Arrow>
-            <ArrowText>{currInfo.flow[0]}</ArrowText>
-            <Triangle tw="border-l-main-red border-b-transparent border-t-transparent"/>
-          </Arrow>
-          <FlexTriangle>
-            <Arrow>
-              <SmallerTriangle />
-              <ArrowText tw="bg-tbasMain-purple500 h-full">{currInfo.flow[1]}</ArrowText>
-              <SmallerTriangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
-            </Arrow>
-            <Arrow tw="pt-4 ">
-              <SmallerTriangle />
-              <ArrowText tw="bg-tbasMain-purple500 h-full w-full">{currInfo.flow[2]}</ArrowText>
-              <SmallerTriangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
-            </Arrow>
-          </FlexTriangle>
-          <Arrow>
-            <Triangle />
-            <ArrowText tw="bg-tbasMain-purple500">{currInfo.flow[3]}</ArrowText>
-            <Triangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
-          </Arrow>
-          <Arrow>
-            <Triangle tw="border-l-transparent border-t-tbasMain-purple700 border-b-tbasMain-purple700"/>
-            <ArrowText tw="bg-tbasMain-purple700 px-4">{currInfo.flow[4]}</ArrowText>
-            <RightTriangle/>
-          </Arrow>
-        </Row>
-        <Row tw="pt-6 flex flex-col md:hidden">
-          <Row>
+        <FlowContainer>
+          <Row tw="hidden md:flex">
             <Arrow>
               <ArrowText>{currInfo.flow[0]}</ArrowText>
-              <Triangle tw="border-l-main-red border-b-transparent border-t-transparent border-t-[50px] border-b-[50px] "/>
+              <Triangle tw="border-l-main-red border-b-transparent border-t-transparent"/>
             </Arrow>
             <FlexTriangle>
               <Arrow>
@@ -128,8 +101,6 @@ export default function ContactForm(props) {
                 <SmallerTriangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
               </Arrow>
             </FlexTriangle>
-          </Row>
-          <Row tw="pt-6 pl-20">
             <Arrow>
               <Triangle />
               <ArrowText tw="bg-tbasMain-purple500">{currInfo.flow[3]}</ArrowText>
@@ -141,8 +112,39 @@ export default function ContactForm(props) {
               <RightTriangle/>
             </Arrow>
           </Row>
-          
-        </Row>
+          <Row tw="flex flex-col md:hidden">
+            <Row>
+              <Arrow tw="basis-1/3">
+                <ArrowText>{currInfo.flow[0]}</ArrowText>
+                <Triangle tw="border-l-main-red border-b-transparent border-t-transparent border-t-[50px] border-b-[50px] "/>
+              </Arrow>
+              <FlexTriangle>
+                <Arrow>
+                  <SmallerTriangle />
+                  <ArrowText tw="bg-tbasMain-purple500 h-full">{currInfo.flow[1]}</ArrowText>
+                  <SmallerTriangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
+                </Arrow>
+                <Arrow tw="pt-4 ">
+                  <SmallerTriangle />
+                  <ArrowText tw="bg-tbasMain-purple500 h-full w-full">{currInfo.flow[2]}</ArrowText>
+                  <SmallerTriangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
+                </Arrow>
+              </FlexTriangle>
+            </Row>
+            <Row tw="pt-6 pl-12 md:pl-20">
+              <Arrow>
+                <Triangle />
+                <ArrowText tw="bg-tbasMain-purple500">{currInfo.flow[3]}</ArrowText>
+                <Triangle tw="border-l-tbasMain-purple500 border-t-transparent border-b-transparent"/>
+              </Arrow>
+              <Arrow>
+                <Triangle tw="border-l-transparent border-t-tbasMain-purple700 border-b-tbasMain-purple700"/>
+                <ArrowText tw="bg-tbasMain-purple700 px-4">{currInfo.flow[4]}</ArrowText>
+                <RightTriangle/>
+              </Arrow>
+            </Row>
+          </Row>
+        </FlowContainer>
         <SubHeading tw="underline">{currInfo.lineHeading}</SubHeading>
         <Row tw="gap-x-6 md:gap-x-24">
           <Bullets>
@@ -166,7 +168,6 @@ export default function ContactForm(props) {
         <SubHeading tw="pb-0">{currInfo.keyPoints[0]}</SubHeading>
         <SubHeading tw="mt-0 py-2">{currInfo.keyPoints[1]}</SubHeading>
         <SubHeading tw="mt-0 py-2 pb-6">{currInfo.keyPoints[2]}</SubHeading>
-
       </ContentFormatted2>
     </Container>
   );

@@ -1565,8 +1565,8 @@ export const applyForm = [
     flowHeading: "★Please apply through the official LINE 「T-BAS Instructor Recruitment」",
     flowSubHeading: "Steps from teacher application to employment：",
     flow: [
-      "Apply from the official LINE",
-      "Reply from T-BAS on LINE",
+      "Apply via the official LINE",
+      (<>Message T-BAS on LINE</>),
       "Interview",
       "Begin teaching"
     ],
@@ -1621,10 +1621,10 @@ export const contactForm = [
     flowHeading: "★Flow of inquiry after making an inquiry on the official T-BAS LINE",
     flowSubHeading: "For trial lesson, admission consultation, and other applications：",
     flow: [
-      "Apply from the official LINE",
-      "Submit Form",
-      "Consultation",
-      "Reply from T-BAS on LINE",
+      "Apply via the official LINE",
+      "Apply for Trial Lesson",
+      "Consult to join T-BAS",
+      "Message T-BAS on LINE",
       "Book Lesson"
     ],
     lineHeading: "⭐︎3 ways to add to the official T-BAS LINE：",
