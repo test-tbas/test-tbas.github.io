@@ -498,7 +498,8 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Female",
         education: [
-          "国際基督教大学"
+          "国際基督教大学",
+          "玉川IB卒（IBDP取得済）"
         ],
         subjects: [
           "Pre-MYP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
@@ -509,7 +510,8 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Female",
         education: [
-          "早稲田大学国際教養学部"
+          "早稲田大学国際教養学部",
+          "玉川IB卒（IBDP取得済）"
         ],
         subjects: [
           "Pre-MYP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
@@ -533,7 +535,8 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "トロント大学エンジニアリングサイエンス"
+          "トロント大学エンジニアリングサイエンス",
+          "玉川IB卒（IBDP取得済）"
         ],
         subjects: [
           "MathAA(HL)", "Phy(HL)", "Chem(SL)"
@@ -581,7 +584,8 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "国際基督教大学"
+          "国際基督教大学",
+          "玉川IB卒（IBDP取得済）"
         ],
         subjects: [
           "MYP", "DP", "Bio(HL)", "Econ(HL)", "Math(AI)"
@@ -650,7 +654,8 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Female",
         education: [
-          "International Christian University."
+          "International Christian University.",
+          "Tamagawa IB graduate (IBDP obtained)"
         ],
         subjects: [
           "Pre-MYP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
@@ -661,7 +666,8 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Female",
         education: [
-          "Waseda University, School of International Program"
+          "Waseda University, School of International Program",
+          "Tamagawa IB graduate (IBDP obtained)"
         ],
         subjects: [
           "Pre-MYP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
@@ -686,6 +692,7 @@ export const tutors_list = [
         gender: "Male",
         education: [
           "University of Toronto,Faculty of engineering science",
+          "Tamagawa IB graduate (IBDP obtained)",
         ],
         subjects: [
           "MathAA(HL)", "Phy(HL)", "Chem(SL)"
@@ -722,7 +729,7 @@ export const tutors_list = [
         gender: "Female",
         education: [
           "University of Hawaii",
-          "Tamagawa Academy IB(IBDP completed)"
+          "Tamagawa IB graduate (IBDP obtained)"        
         ],
         subjects: [
            "MYP",  "DP", "Biology", "English A",  "History", "Japanese", "Math(AI)"
@@ -733,7 +740,8 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Male",
         education: [
-          "International Christian University (ICU)"
+          "International Christian University (ICU)",
+          "Tamagawa IB graduate (IBDP obtained)"
         ],
         subjects: [
           "MYP", "DP", "Bio(HL)", "Econ(HL)", "Math(AI)"
@@ -765,9 +773,9 @@ export const tutors_acceptance = [
     colleges: [
       "慶應義塾大学経済学部(PEARL)",
       "慶應義塾大学文学部",
-      "慶應義塾大学総合政策学部(GIGA）",
+      "慶應義塾大学総合政策学部(GIGAプログラム）",
       "早稲田大学国際教養学部",
-      "早稲田社会科学部（TAISI）",
+      "早稲田大学社会科学部（TAISIプログラム）",
       "鹿児島大学医学部",      
       "上智大学国際教養学部",
       "上智大学経済学部",
@@ -779,7 +787,7 @@ export const tutors_acceptance = [
       "立教大学GLAP",
       "立教大学法学部国際ビジネス法学科",
       "法政大学経済学部国際経済学科",
-      "テンプル大学ジャパン",
+      "テンプル大学ジャパンキャンパス",
       "エディンバラ大学",
       "バーミンガム大学",
       "ダラム大学",
@@ -802,13 +810,13 @@ export const tutors_acceptance = [
   {
     heading: "University acceptance records of instructors",
     colleges: [
-      "Keio University, Faculty of Economics (English Degree)",
+      "Keio University, Faculty of Economics (PEARL)",
       "Keio University, Faculty of Letters",
-      "Keio University, Faculty of Policy Management (English Degree)",
-      "Waseda University, School of International Program",
-      "Waseda University, Faculty of Social Sciences (English Degree)",
+      "Keio University, Faculty of Policy Management ",
+      "Waseda University, SILS",
+      "Waseda University, SSS (TAISI Program)",
       "Kagoshima University, Faculty of Medicine",      
-      "Sophia University, School of International and Cultural Studies",
+      "Sophia University, Faculty of Liberal Arts(FLA)",
       "Sophia University, Faculty of Economics",
       "Sophia University, Faculty of Law, Department of International Relations",
       "Sophia University, Faculty of Global Studies",
