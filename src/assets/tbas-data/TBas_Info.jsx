@@ -666,13 +666,13 @@ export const tutors_list = [
         name: "Teacher _",
         gender: "Female",
         education: [
-          "Waseda University, School of International Program",
+          "Waseda University, School of International Liberal Studies",
           "Tamagawa IB graduate (IBDP obtained)"
         ],
         subjects: [
           "Pre-MYP", "MYP", "DP", "Econ(HL)", "MathAA(SL)"
         ],
-        comment: "英語のスキルがゼロに近いところからMYPに入り言語の壁や課題に苦戦しましたが、試行錯誤を繰り返したIBの生活はとても充実していて成長できたと感じています。IBで培ったスキルや経験を生かして、英語の勉強や日々の学習をサポートできるように勤めてまいります。T-BASで皆さんにお会いできることを楽しみにしております。"
+        comment: "I entered the MYP with almost zero English skills and struggled with the language barrier and various challenges.However,through trial and error,my experience in the IB program was very fulfilling and I feel that I was able to grow.I am committed to utilizing the skills and experience I gained in the IB to support others in their English learning and daily studies.I look forward to meeting everyone at T-BAS. "
       },
       {
         name: "Teacher _",
@@ -1208,9 +1208,9 @@ export const faqInfo = [
         inPersonTable: {
           heading: (<>対面<HiddenBr/>レッスン</>),
           keyNote: [
-            "※施設使用料が別途1100円/月かかります",
+            "※施設使用料1100円/月を含みます",
             "※週の時間数によってご料金が異なります",
-            "※週３h以上の場合は割引料金適用"
+            "※週３h以上の場合は割引あり"
           ],
           priceSuffix: "円/月",
           courses:[
@@ -1352,7 +1352,7 @@ export const faqInfo = [
         inPersonTable: {
           heading: "In-Person Lessons",
           keyNote: [
-            "※An additional equipment usage fee of 1,100 yen per month is required",
+            "※The facility usage fee of 1,100 yen is included",
             "※Rates vary depending on the number of hours per week",
             "※Discounted rates apply for 3h or more per week"
           ],
