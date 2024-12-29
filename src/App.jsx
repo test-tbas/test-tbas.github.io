@@ -15,12 +15,13 @@ import AccessPage from "pages/AccessPage.jsx";
 import FaqPage from "pages/FaqPage.jsx";
 import ScrollToTop from "helpers/scrollToTop";
 
+import { HelmetProvider } from 'react-helmet-async';
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
 
   return (
-    <>
+    <HelmetProvider>
       <GlobalStyles />
       <Router>
         <ScrollToTop />
@@ -55,6 +56,6 @@ export default function App() {
           <Route path="/eng/apply" element = {<ApplyPage language = "ENG"/>} />
         </Routes>
       </Router>
-    </>
+    </HelmetProvider>
   );
 }
