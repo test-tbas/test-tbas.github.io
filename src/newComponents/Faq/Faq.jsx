@@ -23,13 +23,13 @@ const SubHeading = tw(SubMainHeadingTemplate)`text-tbasMain-purple900 text-cente
 const Container = tw.div`flex flex-col items-center w-full`;
 const FAQSContainer = tw.dl`relative space-y-8 w-full`;
 const FAQ = tw.div`cursor-pointer select-none 
-transition duration-300 border-2 rounded-2xl`;
+transition duration-300 border-2 rounded-2xl mx-2`;
 
 const QAContainer = tw.div`flex flex-row items-start w-full`;
 const LabelContainer = tw.div`md:w-1/16`;
-const TextContainer = tw.div`md:w-15/16 text-left ml-4`;
+const TextContainer = tw.div`md:w-15/16 text-left ml-2 md:ml-4`;
 
-const Question = tw.dt`flex bg-tbasMain-purple500 text-main-white py-10 px-6 rounded-t-2xl`;
+const Question = tw.dt`flex bg-tbasMain-purple500 text-main-white py-10 px-2 md:px-6 rounded-t-2xl`;
 const QuestionText = tw.span`text-left text-base sm:text-lg md:text-xl lg:text-2xl font-semibold`;
 const QuestionToggleIcon = motion(styled.span`
   ${tw`ml-2 transition duration-300 text-tbasMain-purple900`}
@@ -40,12 +40,12 @@ const QuestionToggleIcon = motion(styled.span`
 
 const Answer = motion(tw.dd`
   pointer-events-none text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed bg-white
-  px-6 rounded-b-2xl
+  px-2 md:px-6 rounded-b-2xl
 `);
 
 const BaseLabel = tw.span`font-bold text-main-white
 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl
-py-4 px-6 rounded-full`;
+py-1 md:py-4 px-2 md:px-6 rounded-full`;
 
 const QLabel = tw(BaseLabel)`bg-tbasMain-purple900`;
 const ALabel = tw(BaseLabel)`bg-tbasMain-orange`;
@@ -68,9 +68,9 @@ const PriceKeyNote = tw(MainParagraphTemplate)`text-main-red text-center`;
 const CourseColumnContainer = tw.div`flex flex-col md:flex-row w-full`;
 const CourseColumn = tw.div`flex flex-col md:w-1/3 text-center py-6 px-8 border-black`;
 const CourseHeading = tw(MainHeadingTemplate)`font-bold w-full text-center md:my-8`;
-const CostHeading = tw(MainHeadingTemplate)`font-bold w-full text-center`;
-const CourseDescription = tw(MainParagraph2Template)`inline-block text-left text-tbasMain-purple900 font-medium mt-6`;
-const PriceCourseDescription = tw(CourseDescription)`inline-block text-main-black font-light mt-0`;
+const CostHeading = tw(MainHeadingTemplate)`font-bold w-full text-center md:text-left`;
+const CourseDescription = tw(MainParagraph2Template)`inline-block text-center md:text-left text-tbasMain-purple900 font-medium mt-6`;
+const PriceCourseDescription = tw(CourseDescription)`inline-block text-main-black font-light mt-0 text-center md:text-left`;
 
 const ContainerFormatted = tw(ContentFormatted)`mt-6 lg:mt-0 lg:py-12 lg:pb-12`;
 
@@ -244,8 +244,10 @@ export default function FAQComponent(props){
                           <PriceHeading>
                           {faq.inPersonTable.heading}
                           </PriceHeading>
-                          <PriceKeyNote>
-                          {faq.inPersonTable.keyNote}
+                          <PriceKeyNote tw="pt-4 lg:pt-6">
+                            {faq.inPersonTable.keyNote[0]}<br/>
+                            {faq.inPersonTable.keyNote[1]}<br/>
+                            {faq.inPersonTable.keyNote[2]}
                           </PriceKeyNote>
                         </PriceHeadingContainer>
                         <CourseColumnContainer>
@@ -256,13 +258,13 @@ export default function FAQComponent(props){
                             <CourseDescription>
                               {faq.inPersonTable.courses[0].stdPriceHeading}
                             </CourseDescription>
-                            <CostHeading tw="text-left">
+                            <CostHeading>
                               {faq.inPersonTable.courses[0].stdPrice}
                               <PriceCourseDescription>
                               {faq.inPersonTable.priceSuffix}
                               </PriceCourseDescription>
                             </CostHeading>
-                            <CourseDescription>
+                            {/* <CourseDescription>
                               {faq.inPersonTable.courses[0].dealPriceHeading}
                             </CourseDescription>
                             <CostHeading tw="text-left">
@@ -270,7 +272,7 @@ export default function FAQComponent(props){
                               <PriceCourseDescription>
                               {faq.inPersonTable.priceSuffix}
                               </PriceCourseDescription>
-                            </CostHeading>
+                            </CostHeading> */}
                           </CourseColumn>
                           <CourseColumn tw="md:border-r border-t">
                             <CourseHeading tw="text-tbasMain-lightBlue">
@@ -279,21 +281,21 @@ export default function FAQComponent(props){
                             <CourseDescription>
                               {faq.inPersonTable.courses[1].stdPriceHeading}
                             </CourseDescription>
-                            <CostHeading tw="text-left">
+                            <CostHeading>
                               {faq.inPersonTable.courses[1].stdPrice}
                               <PriceCourseDescription>
                               {faq.inPersonTable.priceSuffix}
                               </PriceCourseDescription>
                             </CostHeading>
-                            <CourseDescription>
+                            {/* <CourseDescription>
                               {faq.inPersonTable.courses[1].dealPriceHeading}
                             </CourseDescription>
-                            <CostHeading tw="text-left">
+                            <CostHeading>
                               {faq.inPersonTable.courses[1].dealPrice}
                               <PriceCourseDescription>
                               {faq.inPersonTable.priceSuffix}
                               </PriceCourseDescription>
-                            </CostHeading>
+                            </CostHeading> */}
                           </CourseColumn>
                           <CourseColumn tw="border-t">
                             <CourseHeading tw="text-tbasMain-purple500">
@@ -302,21 +304,21 @@ export default function FAQComponent(props){
                             <CourseDescription>
                               {faq.inPersonTable.courses[2].stdPriceHeading}
                             </CourseDescription>
-                            <CostHeading tw="text-left">
+                            <CostHeading>
                               {faq.inPersonTable.courses[2].stdPrice}
                               <PriceCourseDescription>
                               {faq.inPersonTable.priceSuffix}
                               </PriceCourseDescription>
                             </CostHeading>
-                            <CourseDescription>
+                            {/* <CourseDescription>
                               {faq.inPersonTable.courses[2].dealPriceHeading}
                             </CourseDescription>
-                            <CostHeading tw="text-left">
+                            <CostHeading>
                               {faq.inPersonTable.courses[2].dealPrice}
                               <PriceCourseDescription>
                               {faq.inPersonTable.priceSuffix}
                               </PriceCourseDescription>
-                            </CostHeading>
+                            </CostHeading> */}
                           </CourseColumn>
                         </CourseColumnContainer>
                       </PriceTable>
@@ -325,6 +327,9 @@ export default function FAQComponent(props){
                           <PriceHeading>
                           {faq.onlineTable.heading}
                           </PriceHeading>
+                          <PriceKeyNote tw="pt-4 lg:pt-6">
+                            {faq.onlineTable.keyNote[0]}
+                          </PriceKeyNote>
                         </PriceHeadingContainer>
                         <CourseColumnContainer>
                           <CourseColumn tw="md:w-1/2 md:border-r border-t">
@@ -334,7 +339,7 @@ export default function FAQComponent(props){
                             <CourseDescription tw="md:px-24">
                               {faq.onlineTable.courses[0].stdPriceHeading}
                             </CourseDescription>
-                            <CostHeading tw="text-left md:px-24">
+                            <CostHeading tw="md:px-24">
                               {faq.onlineTable.courses[0].stdPrice}
                               <PriceCourseDescription>
                               {faq.onlineTable.priceSuffix}
@@ -348,7 +353,7 @@ export default function FAQComponent(props){
                             <CourseDescription tw="md:px-24">
                               {faq.onlineTable.courses[1].stdPriceHeading}
                             </CourseDescription>
-                            <CostHeading tw="text-left md:px-24">
+                            <CostHeading tw="md:px-24">
                               {faq.onlineTable.courses[1].stdPrice}
                               <PriceCourseDescription>
                               {faq.onlineTable.priceSuffix}

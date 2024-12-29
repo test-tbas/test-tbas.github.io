@@ -1207,45 +1207,52 @@ export const faqInfo = [
         // add code for table
         inPersonTable: {
           heading: (<>対面<HiddenBr/>レッスン</>),
-          keyNote: "※施設使用料が別途1100円/月かかります",
-          priceSuffix: "円/時間",
+          keyNote: [
+            "※施設使用料が別途1100円/月かかります",
+            "※週の時間数によってご料金が異なります",
+            "※週３h以上の場合は割引料金適用"
+          ],
+          priceSuffix: "円/月",
           courses:[
             {
               heading: "Pre-MYP",
-              stdPriceHeading: "通常料金",
-              stdPrice: "7700",
-              dealPriceHeading: "週3時間以上の場合",
-              dealPrice: "7150"
+              stdPriceHeading: "週1時間の場合",
+              stdPrice: "31900",
+              // dealPriceHeading: "週3時間以上の場合",
+              // dealPrice: "7150"
             },
             {
               heading: "MYP",
-              stdPriceHeading: "通常料金",
-              stdPrice: "7700",
-              dealPriceHeading: "週3時間以上の場合",
-              dealPrice: "7150"
+              stdPriceHeading: "週1時間の場合",
+              stdPrice: "31900",
+              // dealPriceHeading: "週3時間以上の場合",
+              // dealPrice: "7150"
             },
             {
               heading: "DP",
-              stdPriceHeading: "通常料金",
-              stdPrice: "8250",
-              dealPriceHeading: "週3時間以上の場合",
-              dealPrice: "8140"
+              stdPriceHeading: "週1時間の場合",
+              stdPrice: "34100",
+              // dealPriceHeading: "週3時間以上の場合",
+              // dealPrice: "8140"
             }
           ]
         },
         onlineTable: {
           heading: (<>オンライン<HiddenBr/>レッスン</>),
-          priceSuffix: "円/時間",
+          keyNote: [
+            "※週の時間数によってご料金が異なります"
+          ],
+          priceSuffix: "円/月",
           courses:[
             {
               heading: "MYP",
-              stdPriceHeading: "通常料金",
-              stdPrice: "6600"
+              stdPriceHeading: "週1時間の場合",
+              stdPrice: "26400"
             },
             {
               heading: "DP",
-              stdPriceHeading: "通常料金",
-              stdPrice: "6600"
+              stdPriceHeading: "週1時間の場合",
+              stdPrice: "26400"
             }
           ]
         }
@@ -1344,45 +1351,52 @@ export const faqInfo = [
         // add code for table
         inPersonTable: {
           heading: "In-Person Lessons",
-          keyNote: "※An additional equipment usage fee of 1,100 yen per month is required.",
-          priceSuffix: "Yen / hour",
+          keyNote: [
+            "※An additional equipment usage fee of 1,100 yen per month is required",
+            "※Rates vary depending on the number of hours per week",
+            "※Discounted rates apply for 3h or more per week"
+          ],
+          priceSuffix: "Yen / month",
           courses:[
             {
               heading: "Pre-MYP",
-              stdPriceHeading: "Regular fee",
-              stdPrice: "7700",
-              dealPriceHeading: "For 3 hours or more per week",
-              dealPrice: "7150"
+              stdPriceHeading: "1 hour per week",
+              stdPrice: "31900",
+              // dealPriceHeading: "For 3 hours or more per week",
+              // dealPrice: "7150"
             },
             {
               heading: "MYP",
-              stdPriceHeading: "Regular fee",
-              stdPrice: "7700",
-              dealPriceHeading: "For 3 hours or more per week",
-              dealPrice: "7150"
+              stdPriceHeading: "1 hour per week",
+              stdPrice: "31900",
+              // dealPriceHeading: "For 3 hours or more per week",
+              // dealPrice: "7150"
             },
             {
               heading: "DP",
-              stdPriceHeading: "Regular fee",
-              stdPrice: "8250",
-              dealPriceHeading: "For 3 hours or more per week",
-              dealPrice: "8140"
+              stdPriceHeading: "1 hour per week",
+              stdPrice: "34100",
+              // dealPriceHeading: "For 3 hours or more per week",
+              // dealPrice: "8140"
             }
           ]
         },
         onlineTable: {
           heading: (<>Online<HiddenBr/>Lessons</>),
-          priceSuffix: "Yen / hour",
+          priceSuffix: "Yen / month",
+          keyNote: [
+            "※Rates vary depending on the number of hours per week"
+          ],
           courses:[
             {
               heading: "MYP",
-              stdPriceHeading: "Regular fee",
-              stdPrice: "6600"
+              stdPriceHeading: "1 hour per week",
+              stdPrice: "26400"
             },
             {
               heading: "DP",
-              stdPriceHeading: "Regular fee",
-              stdPrice: "6600"
+              stdPriceHeading: "1 hour per week",
+              stdPrice: "26400"
             }
           ]
         }
